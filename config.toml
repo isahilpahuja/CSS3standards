@@ -1,5 +1,50 @@
 baseurl = "https://sahilscss3blog.herokuapp.com/"
 languageCode = "en-us"
-title = "CSS3 Helper"
-theme = "hyde-x"
-canonifyurls=true
+title = "CSS3"
+theme = "blackburn"
+author = "Meghana Raju"
+# Shown in the side menu
+copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 10
+[indexes]
+  tag = "tags"
+  topic = "topics"
+  [params]
+    # Shown in the home page
+    subtitle = "Making things beautiful"
+    brand = "CSS3"
+    googleAnalytics = "Your Google Analytics tracking ID"
+    disqus = "Your Disqus shortname"
+    # CSS name for highlight.js
+    highlightjs = "androidstudio"
+    dateFormat = "02 Jan 2006, 15:04"
+    # Include any custom CSS and/or JS files
+    # (relative to /static folder)
+    custom_css = ["css/my.css"]
+    custom_js = ["js/my.js"]
+    [menu]
+      # Shown in the side menu.
+      [[menu.main]]
+        name = "Home"
+        pre = "<i class='fa fa-home fa-fw'></i>"
+        weight = 0
+        identifier = "home"
+        url = "/"
+        [[menu.main]]
+    name = "Background"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "background"
+    url = "/post/background"
+  [[menu.main]]
+    name = "Border"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "border"
+    url = "/post/border"
+  [[menu.main]]
+    name = "Color"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 3
+    url = "/post/color"

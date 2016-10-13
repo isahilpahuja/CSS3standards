@@ -7,6 +7,7 @@ author = "Meghana Raju"
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
 paginate = 10
+
 [indexes]
   tag = "tags"
   topic = "topics"
@@ -21,7 +22,7 @@ paginate = 10
     dateFormat = "02 Jan 2006, 15:04"
     # Include any custom CSS and/or JS files
     # (relative to /static folder)
-    custom_css = ["css/my.css"]
+    customCSS = ""
     custom_js = ["js/my.js"]
     [menu]
       # Shown in the side menu.
@@ -48,3 +49,8 @@ paginate = 10
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 3
     url = "/post/color"
+    [[menu.main]]
+      name = "Multi-Column"
+      pre = "<i class='fa fa-phone fa-fw'></i>"
+      weight = 3
+      url = "/post/multi-column"

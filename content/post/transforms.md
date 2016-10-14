@@ -33,9 +33,9 @@ topics = []
 <p>This rotates an element clockwise from its original position, whilst a negative value would rotate it in the opposite direction.</p>
 <h4>Working Section:</h4>
 <p><strong>2D rotate</strong><p>
-<a href="https://jsbin.com/relepidife/edit?html,output"></a>
+<a href="https://jsbin.com/relepidife/edit?html,output">https://jsbin.com/relepidife/edit?html,output</a>
 <p><strong>3D rotate</strong><p>
-<a href="https://jsbin.com/bovazadono/edit?html,output"></a>
+<a href="https://jsbin.com/bovazadono/edit?html,output">https://jsbin.com/bovazadono/edit?html,output</a>
 
 <p><strong>Translate</strong><p>
 <p>This transform function moves an element sideways, or up and down.These values would be any length value, like 10px or 2.4em. One value will move the element to the right (negative values to the left). If a second value is provided, that second value will move it down (negative values up). Or, you can get specific:</p>

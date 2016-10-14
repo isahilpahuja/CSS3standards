@@ -7,27 +7,23 @@ title = "Filters"
 
 +++
 
-<p>CSS3 Background has about 8 properties which is all included in the shorthand ‘background’.
-The Background shorthand takes the following property values in the same order:</p>
+<p>CSS Filters are a powerful tool that authors can use to achieve varying visual effects (sort of like Photoshop filters for the browser). The CSS filter property provides access to effects like blur or color shifting on an element’s rendering before the element is displayed. Filters are commonly used to adjust the rendering of an image, a background, or a border.</p>
 
-<p> background: background-image | background-position / background-size | background-repeat | background-attachment | background-origin | background-clip | background-color</p>
 
-<p><strong>Ex:</strong>  background: url(myImg.jpg) bottom 20px right 20px / 200px 100px no-repeat fixed red;<p>
-
-The different CSS3 Background properties are:
+The different Filter Functions are:
 
 <ul>
-  <li>background-attachment</li>
-  <li>background-color</li>
-  <li>background-image</li>
-  <li>background-position</li>
-  <li>background-position-x</li>
-  <li>background-position-y</li>
-  <li>background-repeat</li>
-  <li>background-clip</li>
-  <li>background-origin</li>
-  <li>background-size</li>
-  <li>background-inline-policy</li>
+  <li>blur(px)</li>
+  <li>brightness(%)</li>
+  <li>contrast(%)</li>
+  <li>drop-shadow(h-shadow v-shadow blur spread color)</li>
+  <li>grayscale(%)</li>
+  <li>hue-rotate(deg)</li>
+  <li>invert(%)</li>
+  <li>opacity(%)</li>
+  <li>saturate(%)</li>
+  <li>sepia(%)</li>
+  <li>url()</li>
 </ul>
 
 <h3>Need for this standard:</h3>

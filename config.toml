@@ -69,3 +69,8 @@ paginate = 10
       pre = "<i class='fa fa-user fa-fw'></i>"
       weight = 7
       url = "/post/gradients"
+	  	  	      [[menu.main]]
+      name = "Transforms"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 8
+      url = "/post/transforms"

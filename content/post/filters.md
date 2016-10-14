@@ -28,21 +28,10 @@ The different Filter Functions are:
 
 <h3>Need for this standard:</h3>
 
-<p>It is always advisable to use the above properties in specific instead of using the shorthand as not declaring few properties explicitly will set them to their default values which might take away the intention of the whole property.</p>
+<p>The filter property used for graphical effects like blurring, sharpening, or color shifting an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders</p>
 
 <h3>Negative Impact:</h3>
-If you use the background shorthand and fail to declare any of the individual properties that make up the shorthand, those properties will revert to their default values listed below:
-
-<ul>
-<li>background-color: transparent</li>
-<li>background-position: 0% 0%</li>
-<li>background-size: auto auto</li>
-<li>background-repeat: repeat repeat</li>
-<li>background-clip: border-box</li>
-<li>background-origin: padding-box</li>
-<li>background-attachment: scroll</li>
-<li>background-image: none</li>
-</ul>
+You may combine any number of functions to manipulate the rendering, but order still matters (i.e., using grayscale() after sepia() will result in completely gray output).
 
 
 <h4>Working Section:</h4>

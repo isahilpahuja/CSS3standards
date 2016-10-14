@@ -49,8 +49,13 @@ paginate = 10
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 3
     url = "/post/color"
-    [[menu.main]]
+  [[menu.main]]
       name = "Multi-Column"
       pre = "<i class='fa fa-phone fa-fw'></i>"
       weight = 3
       url = "/post/multi-column"
+  [[menu.main]]
+    name = "Animation"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 3
+    url = "/post/animation"

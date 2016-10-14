@@ -41,7 +41,7 @@ topics = []
 <p>This transform function moves an element sideways, or up and down.These values would be any length value, like 10px or 2.4em. One value will move the element to the right (negative values to the left). If a second value is provided, that second value will move it down (negative values up). Or, you can get specific:</p>
 <p>transform will not cause other elements to flow around it.</p>
 <h4>Working Section:</h4>
-<a href="https://jsbin.com/zepafofulo/edit?html,output"></a>
+<a href="https://jsbin.com/zepafofulo/edit?html,output">https://jsbin.com/zepafofulo/edit?html,output</a>
 
 <h4>Point of Contact:</h4>
 

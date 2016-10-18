@@ -3,7 +3,7 @@ categories = []
 date = "2016-10-14T12:15:21+05:30"
 description = ""
 keywords = []
-title = "Gradients"
+title = "CSS3 Gradients"
 
 +++
 
@@ -15,21 +15,11 @@ title = "Gradients"
 Linear Gradients (goes down/up/left/right/diagonally)<br>
 Radial Gradients (defined by their center)<br>
 
-The different Filter Functions are:
+<h4>Linear gradients</h4>
+Linear gradients are used to arrange two or more colors in linear formats like top to bottom
 
-<ul>
-  <li>blur(px)</li>
-  <li>brightness(%)</li>
-  <li>contrast(%)</li>
-  <li>drop-shadow(h-shadow v-shadow blur spread color)</li>
-  <li>grayscale(%)</li>
-  <li>hue-rotate(deg)</li>
-  <li>invert(%)</li>
-  <li>opacity(%)</li>
-  <li>saturate(%)</li>
-  <li>sepia(%)</li>
-  <li>url()</li>
-</ul>
+<h4>Radial gradients</h4>
+Radial gradients appears at center
 
 <h3>Need for this standard:</h3>
 

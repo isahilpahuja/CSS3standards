@@ -31,7 +31,7 @@ paginate = 10
         pre = "<i class='fa fa-home fa-fw'></i>"
         weight = 0
         identifier = "home"
-        url = "/post"
+        url = "/post/home"
         [[menu.main]]
     name = "Background"
     pre = "<i class='fa fa-user fa-fw'></i>"
@@ -78,11 +78,15 @@ paginate = 10
       [[menu.main]]
         name = "Animation"
         pre = "<i class='fa fa-user fa-fw'></i>"
-        weight = 3
+        weight = 9
         url = "/post/animation"
-
-        [[menu.main]]
-          name = "Flexible Box Layout"
-          pre = "<i class='fa fa-user fa-fw'></i>"
-          weight = 3
-          url = "/post/flexibleBox"
+      [[menu.main]]
+      name = "Box-sizing"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 10
+      url = "/post/box-sizing"
+      [[menu.main]]
+      name = "Flexible Box Layout"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 11
+      url = "/post/flexibleBox"

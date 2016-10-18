@@ -30,9 +30,9 @@ You may combine any number of functions to manipulate the rendering, but order s
 
 <h4>Working Section:</h4>
 
-<a href="https://jsbin.com/johariyina/edit?html,output">Background Shorthand</a>
+<a href="https://jsbin.com/ganaluheke/edit?html,output">Linear gradients</a>
 
-<a href= "https://jsbin.com/xaseyahade/edit?html,output">Background Properties</a>
+<a href= "https://jsbin.com/bufihu/1/edit?html,output">Radial gradients</a>
 
 <h4>Point of Contact:</h4>
 

@@ -8,12 +8,13 @@ topics = []
 
 +++
 
+<h3>CSS3 Properties</h3>
 
-<a href="/post/background">Background</a>
-<a href="/post/border">Border</a>
-<a href="/post/color">Color</a>
-<a href="/post/multi-column">Multi-Column</a>
-<a href="/post/filters">Filters</a>
-<a href="/post/transitions">Transitions</a>
-<a href="/post/gradients">Gradients</a>
-<a href="/post/transforms">Transforms</a>
+<a href="/post/background">Background</a><br>
+<a href="/post/border">Border</a><br>
+<a href="/post/color">Color</a><br>
+<a href="/post/multi-column">Multi-Column</a><br>
+<a href="/post/filters">Filters</a><br>
+<a href="/post/transitions">Transitions</a><br>
+<a href="/post/gradients">Gradients</a><br>
+<a href="/post/transforms">Transforms</a><br>

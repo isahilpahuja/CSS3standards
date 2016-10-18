@@ -17,6 +17,22 @@ The different transition properties are:
   <td>transition-property</td>
   <td>The ‘transition-property’ property specifies the name of the CSS property to which the transition is applied.</td>
   </tr>
+  <tr>
+  <td>transition-duration</td>
+  <td>The ‘transition-duration’ property defines the length of time that a transition takes.</td>
+  </tr>
+  <tr>
+  <td>transition-timing-function</td>
+  <td>The ‘transition-timing-function’ property describes how the intermediate values used during a transition will be calculated.</td>
+  </tr>
+  <tr>
+  <td>transition-delay</td>
+  <td>The ‘transition-delay’ property defines when the transition will start. It allows a transition to begin execution some some period of time from when it is applied.</td>
+  </tr>
+  <tr>
+  <td>transition</td>
+  <td>The ‘transition’ shorthand property combines the four properties described above into a single property.</td>
+  </tr>
 </table>
 
 <h3>Need for this standard:</h3>

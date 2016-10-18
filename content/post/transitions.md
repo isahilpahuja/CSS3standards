@@ -42,9 +42,7 @@ title = "CSS3 Transitions"
 
 <h4>Working Section:</h4>
 
-<a href="https://jsbin.com/johariyina/edit?html,output">Background Shorthand</a>
-
-<a href= "https://jsbin.com/xaseyahade/edit?html,output">Background Properties</a>
+<a href="https://jsbin.com/daseva/edit?html,output">Transition</a>
 
 <h4>Point of Contact:</h4>
 

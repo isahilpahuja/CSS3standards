@@ -36,7 +36,7 @@ You may combine any number of functions to manipulate the rendering, but order s
 
 <h4>Working Section:</h4>
 
-<a href="https://jsbin.com/johariyina/edit?html,output">Background Shorthand</a>
+<a href="https://jsbin.com/johariyina/edit?html,output">Filters</a>
 
 <a href= "https://jsbin.com/xaseyahade/edit?html,output">Background Properties</a>
 

@@ -37,10 +37,7 @@ The different transition properties are:
 
 <h3>Need for this standard:</h3>
 
-<p>The filter property used for graphical effects like blurring, sharpening, or color shifting an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders</p>
-
-<h3>Negative Impact:</h3>
-You may combine any number of functions to manipulate the rendering, but order still matters (i.e., using grayscale() after sepia() will result in completely gray output).
+<p>Normally when the value of a CSS property changes, the rendered result is instantly updated, with the affected elements immediately changing from the old property value to the new property value. Transitions properties are needed to animate smoothly from the old state to the new state over time.</p>
 
 
 <h4>Working Section:</h4>

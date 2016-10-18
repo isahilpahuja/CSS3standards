@@ -77,6 +77,11 @@ paginate = 10
       
       [[menu.main]]
         name = "Animation"
-        pre = "<i class='fa fa-phone fa-fw'></i>"
-        weight = 3
+        pre = "<i class='fa fa-user fa-fw'></i>"
+        weight = 9
         url = "/post/animation"
+              [[menu.main]]
+        name = "Animation"
+        pre = "<i class='fa fa-user fa-fw'></i>"
+        weight = 10
+        url = "/post/box-sizing"

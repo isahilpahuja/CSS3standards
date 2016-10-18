@@ -10,21 +10,14 @@ title = "Transitions"
 <p>CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. For example, if you change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.</p>
 
 
-The different Filter Functions are:
+The different transition properties are:
 
-<ul>
-  <li>blur(px)</li>
-  <li>brightness(%)</li>
-  <li>contrast(%)</li>
-  <li>drop-shadow(h-shadow v-shadow blur spread color)</li>
-  <li>grayscale(%)</li>
-  <li>hue-rotate(deg)</li>
-  <li>invert(%)</li>
-  <li>opacity(%)</li>
-  <li>saturate(%)</li>
-  <li>sepia(%)</li>
-  <li>url()</li>
-</ul>
+<table>
+  <tr>
+  <td>transition-property</td>
+  <td>The ‘transition-property’ property specifies the name of the CSS property to which the transition is applied.</td>
+  </tr>
+</table>
 
 <h3>Need for this standard:</h3>
 

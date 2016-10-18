@@ -74,9 +74,15 @@ paginate = 10
       pre = "<i class='fa fa-user fa-fw'></i>"
       weight = 8
       url = "/post/transforms"
-      
+
       [[menu.main]]
         name = "Animation"
-        pre = "<i class='fa fa-phone fa-fw'></i>"
+        pre = "<i class='fa fa-user fa-fw'></i>"
         weight = 3
         url = "/post/animation"
+
+        [[menu.main]]
+          name = "Flexible Box Layout"
+          pre = "<i class='fa fa-user fa-fw'></i>"
+          weight = 3
+          url = "/post/flexibleBox"

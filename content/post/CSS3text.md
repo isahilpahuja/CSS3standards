@@ -44,7 +44,7 @@ topics = []
   <li>word-break</li>
 </ul>
 
-<h2>text-overflow:</h2>
+<h2>1) text-overflow:</h2>
 <p>This property in CSS deals with situations where text is clipped when it overflows the element's box. It can be clipped (i.e. cut off, hidden or clip) or display an ellipsis ('…').
 Text overflow can only happen on block or inline-block level elements.</p>
 
@@ -69,27 +69,24 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <h3>Positive Impact:</h3>
 <p>It is supported in all browsers.</p>
 
-<h2>word-wrap:</h2>
+<h2>2) word-wrap:</h2>
 <p>this property will either expand the word outside if it is too long to fit within an area (normal) or forcefully wraps the text even if it means splitting it in the middle of a word (break-word).</p>
 
 <h4>and Hyphen:</h4>
 <p>The hyphens CSS property tells the browser how to hyphenate words when line-wrapping.</p>
 
 <h3>Need for this standard:</h3>
-
 <p>the need for these standard is also to handle the overflow of text outside the area/element.</p>
 
 <h3>Negative Impact:</h3>
 <p>hyphens are not very well supported in some of the browsers like (Chrome, Opera, Android, etc). Furthermore, hyphens is language-sensitive.</p>
-
 <p>In HTML, the language is determined by the ‘lang’ attribute, and browsers will hyphenate only if this attribute is present and if an appropriate hyphenation dictionary is available. You could also use a JavaScript library like Hyphenator.js which works with many languages and in lots of browsers.</p>
 
 <h3>Positive Impact:</h3>
 <p>Unlike text-overflow, they do not require any additional properties to be defined, they can be used directly.</p>
 <p>Word-wrap is supported in all browsers.</p>
 
-
-<h2>word-break:</h2>
+<h2>3) word-break:</h2>
 <p>a CSS property to specify whether to break lines within words. </p>
 
 <h3>Need for this standard:</h3>
@@ -104,7 +101,7 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <p>Here's a mixed-script sample text:</p>
 
 <div>
-<img src="img/word-break-exmpl.png">
+<img src="img/word-break-exmpl.png" alt="mixed-script sample text">
 </div>
 
 <h4>Working Section:</h4>

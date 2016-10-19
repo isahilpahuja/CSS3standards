@@ -18,3 +18,6 @@ topics = []
 <a href="/post/transitions">Transitions</a><br>
 <a href="/post/gradients">Gradients</a><br>
 <a href="/post/transforms">Transforms</a><br>
+<a href="/post/box-sizing">Box-sizing</a><br>
+<a href="/post/flexibleBox">Flexible Box Layouts</a><br>
+<a href="/post/CSS3text">CSS3text</a><br>

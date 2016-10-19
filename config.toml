@@ -74,7 +74,6 @@ paginate = 10
       pre = "<i class='fa fa-user fa-fw'></i>"
       weight = 8
       url = "/post/transforms"
-
       [[menu.main]]
         name = "Animation"
         pre = "<i class='fa fa-user fa-fw'></i>"

@@ -90,3 +90,8 @@ paginate = 10
       pre = "<i class='fa fa-user fa-fw'></i>"
       weight = 11
       url = "/post/flexibleBox"
+      [[menu.main]]
+      name = "CSS3 Text"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 12
+      url = "/post/text"

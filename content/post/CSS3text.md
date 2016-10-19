@@ -44,7 +44,7 @@ topics = []
   <li>word-break</li>
 </ul>
 
-<h2>1) text-overflow:</h2>
+<h2><ul><li style="list-style:circle;">text-overflow:</li></ul></h2>
 <p>This property in CSS deals with situations where text is clipped when it overflows the element's box. It can be clipped (i.e. cut off, hidden or clip) or display an ellipsis ('…').
 Text overflow can only happen on block or inline-block level elements.</p>
 
@@ -69,7 +69,7 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <h3>Positive Impact:</h3>
 <p>It is supported in all browsers.</p>
 
-<h2>2) word-wrap:</h2>
+<h2><ul><li style="list-style:circle;">word-wrap:</li></ul></h2>
 <p>this property will either expand the word outside if it is too long to fit within an area (normal) or forcefully wraps the text even if it means splitting it in the middle of a word (break-word).</p>
 
 <h4>and Hyphen:</h4>
@@ -86,7 +86,7 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <p>Unlike text-overflow, they do not require any additional properties to be defined, they can be used directly.</p>
 <p>Word-wrap is supported in all browsers.</p>
 
-<h2>3) word-break:</h2>
+<h2><ul><li style="list-style:circle;">word-break:</li></ul></h2>
 <p>a CSS property to specify whether to break lines within words. </p>
 
 <h3>Need for this standard:</h3>

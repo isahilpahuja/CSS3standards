@@ -12,7 +12,7 @@ paginate = 10
   tag = "tags"
   topic = "topics"
   [params]
-  home = "home"
+  home = ""
     # Shown in the home page
     subtitle = "Making things beautiful"
     brand = "CSS3"

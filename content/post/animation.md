@@ -67,7 +67,7 @@ Once the @keyframes are defined, the animation properties must be added in order
   </thead>
 <tbody>
   <tr>
-    <td>animation-timing-function</td>
+    <td style="width:30%;">animation-timing-function</td>
     <td>ease</td>
     <td>ease | linear | ease-in | ease-out | ease-in-out | initial | inherit;
      One can creating custom timing functions using cubic-bezier curve.</td>

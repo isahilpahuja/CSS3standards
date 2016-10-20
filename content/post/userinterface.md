@@ -16,11 +16,6 @@ topics = []
 </ul>
 <p>The following table shows the default values of the user interface properties:</p>
 
-
-<h3>Need for this standard:</h3>
-
-<p>For cleaner and faster code, one can use the animation shorthand, but it is always advisable to use the additional animation properties instead of the shorthand properties. This is because, not declaring few properties explicitly will set them to their default values which might take away the intention of the whole property. Also it becomes difficult to memorize the animation sequence for the shorthand, whereas it’s easier to remember them individually.</p>
-
 <table>
   <thead>
     <tr>

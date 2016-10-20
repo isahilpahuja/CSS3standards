@@ -36,9 +36,11 @@ You may combine any number of functions to manipulate the rendering, but order s
 
 <h4>Working Section:</h4>
 
-<a href="https://jsbin.com/johariyina/edit?html,output">Filters</a>
+<a href="https://jsbin.com/toquqin/edit?html,output">All Filters</a>
 
-<a href= "https://jsbin.com/xaseyahade/edit?html,output">Background Properties</a>
+<h4>References:</h4>
+<a href="http://www.w3schools.com/cssref/css3_pr_filter.asp">http://www.w3schools.com/cssref/css3_pr_filter.asp</a>
+<a href="https://css-tricks.com/almanac/properties/f/filter/">https://css-tricks.com/almanac/properties/f/filter/</a>
 
 <h4>Point of Contact:</h4>
 

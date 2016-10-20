@@ -4,7 +4,7 @@ title = "CSS3"
 theme = "hyde-x"
 author = "Meghana Raju"
 # Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2016 Sahil."
 canonifyurls = true
 paginate = 10
 
@@ -12,6 +12,7 @@ paginate = 10
   tag = "tags"
   topic = "topics"
   [params]
+  home = "home"
     # Shown in the home page
     subtitle = "Making things beautiful"
     brand = "CSS3"

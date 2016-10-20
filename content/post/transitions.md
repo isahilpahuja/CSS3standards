@@ -44,7 +44,7 @@ The transition-timing-function property can have the following values:
 <li>ease-out - specifies a transition effect with a slow end</li>
 <li>ease-in-out - specifies a transition effect with a slow start and end</li>
 <li>cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function</li>
-</ul>
+</ul>jkjjkjk
 
 <h3>Need for this standard:</h3>
 

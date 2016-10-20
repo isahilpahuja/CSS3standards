@@ -97,5 +97,5 @@ paginate = 10
       [[menu.main]]
       name = "CSS3 User Interface"
       pre = "<i class='fa fa-user fa-fw'></i>"
-      weight = 12
-      url = "/post/css3userinterface"
+      weight = 13
+      url = "/post/userinterface"

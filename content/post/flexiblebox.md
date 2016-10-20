@@ -142,8 +142,14 @@ We no longer need to rely on solutions like, stretching content with position: a
 
 <h4>Working Section:</h4>
 <p>Check the working of Flex Properties here:</p>
-
 <a href="https://jsbin.com/yugubu/1">FlexBox Use</a>
+
+
+<h4>Reference:</h4>
+<a href="https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/">CSS Flexible Box Layout Module Level 1</a>
+<a href="https://chriswrightdesign.com/experiments/using-flexbox-today/">Using Flexbox today</a>
+<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a>
+<a href="http://brolik.com/blog/when-to-use-flexbox/">When to use Flexbox</a>
 
 <h4>Point of Contact:</h4>
 

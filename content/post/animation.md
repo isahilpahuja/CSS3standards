@@ -109,6 +109,12 @@ Once the @keyframes are defined, the animation properties must be added in order
 <p>Using additional animation properties:</p>
 <a href= "https://jsbin.com/ceqitov/4">Animation Properties</a>
 
+<h4>Reference:</h4>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Defining_the_animation_sequence_using_keyframes">Using CSS animations</a>
+<a href="https://www.w3.org/TR/css3-animations/#the-animation-shorthand-property-">CSS Animations</a>
+<a href="https://robots.thoughtbot.com/css-animation-for-beginners">CSS Animation for Beginners</a>
+<a href="https://css-tricks.com/almanac/properties/a/animation/">CSS-Tricks Animation</a>
+
 <h4>Point of Contact:</h4>
 
 <p>Minu Kumari</p>

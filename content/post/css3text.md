@@ -115,6 +115,11 @@ Text overflow can only happen on block or inline-block level elements.</p>
 
 <p><strong><i>Note:</i></strong>the difference between text-overflow and word-wrap is that, the text-overflow property cuts-off the part which does not fits into the element, while the word-wrap forcefully pushes the text inside the element. Word-break break the word/letter or at space as per required by the area.</p>
 
+<h4>Reference:</h4>
+<a href="https://www.w3.org/TR/css-text-3/">CSS Text Module Level 3</a>
+<a href="https://justmarkup.com/log/2015/07/dealing-with-long-words-in-css/">Dealing with long words in CSS</a>
+<a href="http://www.w3schools.com/css/css3_text_effects.asp">CSS3 Text</a>
+
 <h4>Point of Contact:</h4>
 
 <p>Minu Kumari</p>

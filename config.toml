@@ -46,7 +46,7 @@ paginate = 10
     url = "/post/border"
   [[menu.main]]
     name = "Color"
-    pre = "<i class='fa fa-user fa-fw'></i>"
+    pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 3
     url = "/post/color"
   [[menu.main]]
@@ -61,7 +61,7 @@ paginate = 10
       url = "/post/filters"
 	  	      [[menu.main]]
       name = "Transitions"
-      pre = "<i class='fa fa-user fa-fw'></i>"
+      pre = "<i class='fa fa-book fa-fw'></i>"
       weight = 6
       url = "/post/transitions"
 	  	      [[menu.main]]
@@ -71,7 +71,7 @@ paginate = 10
       url = "/post/gradients"
 	  	  	      [[menu.main]]
       name = "Transforms"
-      pre = "<i class='fa fa-user fa-fw'></i>"
+      pre = "<i class='fa fa-book fa-fw'></i>"
       weight = 8
       url = "/post/transforms"
       [[menu.main]]

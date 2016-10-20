@@ -24,16 +24,16 @@ Once the @keyframes are defined, the animation properties must be added in order
     </ul>
 <p>Now to animate a div we can use the following code,</p>
 
-    <div style="display: flex; justify-content: flex-start;">
-        <div style="text-align:center;padding: 5px;margin:3px;">
-            <img src="img/animate_prop.png"  style="height:100px;">
-            <figcaption>The animation properties:</figcaption>
-        </div>
-        <div style="text-align:center;padding: 5px;margin:3px;">
-            <img src="img/animate_shorthand.png" style="height:100px;">       
-            <figcaption> or the shorthand syntax:</figcaption>
-        </div>
-    </div>
+<div style="display: flex; justify-content: flex-start;">
+<div style="text-align:center;padding: 5px;margin:3px;">
+  <img src="img/animate_prop.png"  style="height:100px;">
+  <figcaption>The animation properties:</figcaption>
+</div>
+<div style="text-align:center;padding: 5px;margin:3px;">
+  <img src="img/animate_shorthand.png" style="height:100px;">       
+  <figcaption> or the shorthand syntax:</figcaption>
+</div>
+</div>
 
 <p><strong>Animation Property Shorthand:</strong></p>
 <p><strong>animation: </strong>[animation-name][animation-duration][animation-timing-function][animation-delay] [animation-iteration-count][animation-direction][animation-fill-mode][animation-play-state];</p>

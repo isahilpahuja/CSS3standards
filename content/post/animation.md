@@ -26,11 +26,11 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <div style="display: flex; justify-content: flex-start;">
 <div style="text-align:center;padding: 5px;margin:3px;">
-  <img src="img/animate_prop.png"  style="height:100px;">
+  <img src="img/animate_prop.png" alt="animation properties" style="height:100px;">
   <figcaption>The animation properties:</figcaption>
 </div>
 <div style="text-align:center;padding: 5px;margin:3px;">
-  <img src="img/animate_shorthand.png" style="height:100px;">       
+  <img src="img/animate_shorthand.png" alt="shorthand syntax" style="height:100px;">       
   <figcaption> or the shorthand syntax:</figcaption>
 </div>
 </div>

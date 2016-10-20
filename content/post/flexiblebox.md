@@ -121,14 +121,6 @@ We no longer need to rely on solutions like, stretching content with position: a
 </p>
 <p>But it is preferable to use media-queries and percentage-based widths for creating columns and rows.</p>
 
-<h3>Positive Impact:</h3>
-<ul>
-    <li>You only need to know a handful of CSS properties to use flexbox.</li>
-    <li>Once an element is set as a flex container its children follow the flexbox rules for layout instead of the standard block, inline and inline-block rules</li>
-    <li>Besides the support for flexbox, a reason to use it is the ease in which we can center elements, both horizontally and vertically</li>
-    <li>It becomes easier to have space distributed evenly on both sides of the items/between only the middle items, without dealing with “:first-child” or  “:last-child”.</li>
-    <li>It’s supported in all major browsers.</li>
-</ul>
 
 <h3>Negative Impact:</h3>
 <p>Don't use flexbox for overall page layout.</p>
@@ -138,6 +130,15 @@ We no longer need to rely on solutions like, stretching content with position: a
 <ul>
 <li><a href="https://github.com/philipwalton/flexbugs">Flexbugs</a></li>
 <li><a href="https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/">Normalizing Cross-browser Flexbox Bugs.</a></li>
+</ul>
+
+<h3>Positive Impact:</h3>
+<ul>
+    <li>You only need to know a handful of CSS properties to use flexbox.</li>
+    <li>Once an element is set as a flex container its children follow the flexbox rules for layout instead of the standard block, inline and inline-block rules</li>
+    <li>Besides the support for flexbox, a reason to use it is the ease in which we can center elements, both horizontally and vertically</li>
+    <li>It becomes easier to have space distributed evenly on both sides of the items/between only the middle items, without dealing with “:first-child” or  “:last-child”.</li>
+    <li>It’s supported in all major browsers.</li>
 </ul>
 
 <h4>Working Section:</h4>

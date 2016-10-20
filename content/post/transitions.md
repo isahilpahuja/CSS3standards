@@ -37,12 +37,14 @@ title = "CSS3 Transitions"
 
 <h4>Specify the Speed Curve of the Transition</h4>
 The transition-timing-function property can have the following values:
-ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
-linear - specifies a transition effect with the same speed from start to end
-ease-in - specifies a transition effect with a slow start
-ease-out - specifies a transition effect with a slow end
-ease-in-out - specifies a transition effect with a slow start and end
-cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+<ul>
+<li>ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)<li>
+<li>linear - specifies a transition effect with the same speed from start to end<li>
+<li>ease-in - specifies a transition effect with a slow start<li>
+<li>ease-out - specifies a transition effect with a slow end<li>
+<li>ease-in-out - specifies a transition effect with a slow start and end<li>
+<li>cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function<li>
+</ul>
 
 <h3>Need for this standard:</h3>
 

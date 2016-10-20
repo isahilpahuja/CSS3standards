@@ -101,7 +101,7 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <p>Here's a mixed-script sample text:</p>
 
 <div>
-<img src="content/post/img/word-break-exmpl.png" alt="mixed-script sample text">
+<img src="img/word-break-exmpl.png" alt="mixed-script sample text">
 </div>
 
 <h4>Working Section:</h4>

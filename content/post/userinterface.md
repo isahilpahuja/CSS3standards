@@ -92,9 +92,9 @@ topics = []
 <a href="https://jsbin.com/kisunay/1">Outline-offset</a>
 
 <h4>Reference:</h4>
-<a href="https://www.w3.org/TR/css-ui-3/#propdef-box-sizing">CSS Basic User Interface Module Level 3 (CSS3 UI)</a>
-<a href="http://www.html5andcss3.org/css3userinterface.php">CSS3 User Interface Tutorial</a>
-<a href="http://www.w3schools.com/css/css3_user_interface.asp">CSS3 User Interface</a>
+<a href="https://www.w3.org/TR/css-ui-3/#propdef-box-sizing">CSS Basic User Interface Module Level 3 (CSS3 UI)</a><br>
+<a href="http://www.html5andcss3.org/css3userinterface.php">CSS3 User Interface Tutorial</a><br>
+<a href="http://www.w3schools.com/css/css3_user_interface.asp">CSS3 User Interface</a><br>
 <a href="https://drafts.csswg.org/css-ui-3/#outline-offset">Outline-Offset</a>
 
 <h4>Point of Contact:</h4>

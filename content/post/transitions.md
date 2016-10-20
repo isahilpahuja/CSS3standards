@@ -35,6 +35,15 @@ title = "CSS3 Transitions"
   </tr>
 </table>
 
+<h4>Specify the Speed Curve of the Transition</h4>
+The transition-timing-function property can have the following values:
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+
 <h3>Need for this standard:</h3>
 
 <p>Normally when the value of a CSS property changes, the rendered result is instantly updated, with the affected elements immediately changing from the old property value to the new property value. Transitions properties are needed to animate smoothly from the old state to the new state over time.</p>

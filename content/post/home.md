@@ -1,14 +1,11 @@
 +++
-date = "2016-10-06T13:20:20+05:30"
 description = ""
 draft = false
 tags = []
-title = "Home"
+title = "CSS3 Properties"
 topics = []
 
 +++
-
-<h3>CSS3 Properties</h3>
 
 <a href="/post/background">Background</a><br>
 <a href="/post/border">Border</a><br>

@@ -15,10 +15,19 @@ Linear Gradients (goes down/up/left/right/diagonally)<br>
 Radial Gradients (defined by their center)<br>
 
 <h4>Linear gradients</h4>
-Linear gradients are used to arrange two or more colors in linear formats like top to bottom
+Linear gradients are used to arrange two or more colors in linear formats like top to bottom.
+To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
+
+Syntax :
+background: linear-gradient(direction, color-stop1, color-stop2, ...);
+
 
 <h4>Radial gradients</h4>
-Radial gradients appears at center
+Radial gradients appears at center.
+To create a radial gradient you must also define at least two color stops.
+
+Syntax :
+background: radial-gradient(shape size at position, start-color, ..., last-color);
 
 <h3>Need for this standard:</h3>
 

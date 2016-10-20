@@ -102,13 +102,13 @@ Text overflow can only happen on block or inline-block level elements.</p>
 
 <div style="display: flex;">
   <div style="padding: 5px;margin:3px;" class="prop">
-      <p>这是一些汉字, and some Latin, و کمی نوشتنن عربی, และตัวอย่างการเขียนภาษาไทย.</p>
+      <p><strong>Text:</strong>这是一些汉字, and some Latin, و کمی نوشتنن عربی, และตัวอย่างการเขียนภาษาไทย.</p>
       <p><i>The break-points are determined as follows (indicated by ‘·’):</i></p>
-      <p>‘word-break: normal’</p>
+      <p><u>‘word-break: normal’</u></p>
       <p>这·是·一·些·汉·字,·and·some·Latin,·و·کمی·نوشتنن·عربی·และ·ตัวอย่าง·การเขียน·ภาษาไทย.</p>
-      <p>‘word-break: break-all’</p>
+      <p><u>‘word-break: break-all’</u></p>
       <p>这·是·一·些·汉·字,·a·n·d·s·o·m·e·L·a·t·i·n,·و·ﮐ·ﻤ·ﻰ·ﻧ·ﻮ·ﺷ·ﺘ·ﻦ·ﻋ·ﺮ·ﺑ·ﻰ,·แ·ล·ะ·ตั·ว·อ·ย่·า·ง·ก·า·ร·เ·ขี·ย·น·ภ·า·ษ·า·ไ·ท·ย.</p>
-      <p>‘word-break: keep-all’</p>
+      <p><u>‘word-break: keep-all’</u></p>
       <p>这是一些汉字,·and·some·Latin,·و·کمی·نوشتنن·عربی,·และตัวอย่างการเขียนภาษาไทย.</p>
     </div>
 </div>

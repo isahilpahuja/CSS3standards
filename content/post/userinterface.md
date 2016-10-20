@@ -8,14 +8,12 @@ topics = []
 
 +++
 
-
 <p>CSS3 brings some great new properties relating to resizing elements, cursors, outlining, box layout and more. Here we will be focusing on three of the most significant user interface enhancements:</p>
-
-    <ul>
-        <li>resize</li>
-        <li>box-sizing</li>
-        <li>outline-offset</li>
-    </ul>
+<ul>
+<li>resize</li>
+<li>box-sizing</li>
+<li>outline-offset</li>
+</ul>
 <p>The following table shows the default values of the user interface properties:</p>
 
 

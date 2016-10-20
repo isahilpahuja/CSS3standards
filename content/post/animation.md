@@ -36,7 +36,7 @@ Once the @keyframes are defined, the animation properties must be added in order
 <figcaption>The animation properties:</figcaption>
 </div>
 <div style="text-align:center;padding: 5px;margin:3px;">
-  <div class="prop" style="padding:35px">
+  <div class="prop" style="padding:30px">
   div<br/> {<br/>
     animation: bounceIn 2s;<br/>
   }
@@ -132,12 +132,15 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <style>
 .prop {
-    background-color:#262626;
-    color:#fff;
+    background-color:#FFEBCD;
+    color:#A52A2A;
     width: 250px;
     border: 1px solid;
-    padding: 25px;
+    padding: 20px;
     margin: 25px;
     text-align: left;
+    box-sizing: content-box;
+    border-radius:10px;
+    font-size:14px;
 }
 </style>

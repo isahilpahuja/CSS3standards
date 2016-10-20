@@ -10,7 +10,7 @@ title = "CSS3 Filters"
 <p>CSS Filters are a powerful tool that authors can use to achieve varying visual effects (sort of like Photoshop filters for the browser). The CSS filter property provides access to effects like blur or color shifting on an element’s rendering before the element is displayed. Filters are commonly used to adjust the rendering of an image, a background, or a border.</p>
 
 
-The different Filter Functions are:
+<h6>The different Filter Functions are :</h6>
 
 <table>
 <tr>

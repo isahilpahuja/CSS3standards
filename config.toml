@@ -1,4 +1,4 @@
-baseurl = "https://sahilscss3blog.herokuapp.com/"
+baseurl = "https://sahilscss3blog.herokuapp.com/post/home/"
 languageCode = "en-us"
 title = "CSS3"
 theme = "hyde-x"

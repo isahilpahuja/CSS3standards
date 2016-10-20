@@ -58,7 +58,7 @@ The transition-timing-function property can have the following values:
 <a href="https://jsbin.com/daseva/edit?html,output">Transition</a>
 
 <h4>References:</h4>
-<a href="http://www.w3schools.com/css/css3_transitions.asp">http://www.w3schools.com/css/css3_transitions.asp</a>
+<a href="http://www.w3schools.com/css/css3_transitions.asp">http://www.w3schools.com/css/css3_transitions.asp</a><br>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions</a>
 
 <h4>Point of Contact:</h4>

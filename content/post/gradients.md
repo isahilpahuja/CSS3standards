@@ -42,7 +42,7 @@ background: radial-gradient(shape size at position, start-color, ..., last-color
 <a href= "https://jsbin.com/bufihu/1/edit?html,output">Radial gradients</a>
 
 <h4>References:</h4>
-<a href="http://www.w3schools.com/css/css3_gradients.asp">http://www.w3schools.com/css/css3_gradients.asp</a>
+<a href="http://www.w3schools.com/css/css3_gradients.asp">http://www.w3schools.com/css/css3_gradients.asp</a><br>
 <a href="https://css-tricks.com/css3-gradients/">https://css-tricks.com/css3-gradients/</a>
 
 <h4>Point of Contact:</h4>

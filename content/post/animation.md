@@ -24,14 +24,24 @@ Once the @keyframes are defined, the animation properties must be added in order
     </ul>
 <p>Now to animate a div we can use the following code,</p>
 
-<div style="display: flex; justify-content: flex-start;">
+<div style="display: flex;">
 <div style="text-align:center;padding: 5px;margin:3px;">
-  <img src="img/animate_prop.png" alt="animation properties" style="height:100px;">
-  <figcaption>The animation properties:</figcaption>
+<div class="prop">
+  div<br/>
+    {<br/>
+    animation-duration: 2s;<br/>
+    animattion-name:bounceIn;<br/>
+  }
+</div>
+<figcaption>The animation properties:</figcaption>
 </div>
 <div style="text-align:center;padding: 5px;margin:3px;">
-  <img src="img/animate_shorthand.png" alt="shorthand syntax" style="height:100px;">       
-  <figcaption> or the shorthand syntax:</figcaption>
+  <div class="prop" style="padding:35px">
+  div<br/> {<br/>
+    animation: bounceIn 2s;<br/>
+  }
+  </div>    
+<figcaption>or the shorthand syntax:</figcaption>
 </div>
 </div>
 
@@ -119,3 +129,15 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <p>Minu Kumari</p>
 <a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a>
+
+<style>
+.prop {
+    background-color:#262626;
+    color:#fff;
+    width: 250px;
+    border: 1px solid;
+    padding: 25px;
+    margin: 25px;
+    text-align: left;
+}
+</style>

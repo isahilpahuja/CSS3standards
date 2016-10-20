@@ -46,6 +46,8 @@ The transition-timing-function property can have the following values:
 
 <a href="https://jsbin.com/zitize/edit?html,output">Transition-timing-function demo</a>
 
+<a href="https://jsbin.com/daseva/edit?html,output">Transition</a>
+
 <h3>Need for this standard:</h3>
 
 <p>Normally when the value of a CSS property changes, the rendered result is instantly updated, with the affected elements immediately changing from the old property value to the new property value. Transitions properties are needed to animate smoothly from the old state to the new state over time.</p>

@@ -12,19 +12,55 @@ title = "CSS3 Filters"
 
 The different Filter Functions are:
 
-<ul>
-  <li>blur(px)</li>
-  <li>brightness(%)</li>
-  <li>contrast(%)</li>
-  <li>drop-shadow(h-shadow v-shadow blur spread color)</li>
-  <li>grayscale(%)</li>
-  <li>hue-rotate(deg)</li>
-  <li>invert(%)</li>
-  <li>opacity(%)</li>
-  <li>saturate(%)</li>
-  <li>sepia(%)</li>
-  <li>url()</li>
-</ul>
+<table>
+<tr>
+  <td>blur(px)</td>
+  <td>Applies a blur effect to the image. A larger value will create more blur.</td>
+  </tr>
+  <tr>
+  <td>brightness(%)</td>
+  <td>Adjusts the brightness of the image.</td>
+  </tr>
+  <tr>
+  <td>contrast(%)</td>
+  <td>Adjusts the contrast of the image.</td>
+  </tr>
+  <tr>
+  <td>drop-shadow(h-shadow v-shadow blur spread color)</td>
+  <td>Applies a drop shadow effect to the image. </td>
+  </tr>
+  <tr>
+  <td>grayscale(%)</td>
+  <td>Converts the image to grayscale. </td>
+  </tr>
+  <tr>
+  <td>hue-rotate(deg)</td>
+  <td>Applies a hue rotation on the image.</td>
+  </tr>
+  <tr>
+  <td>invert(%)</td>
+  <td>Inverts the samples in the image.</td>
+  </tr>
+  <tr>
+  <td>opacity(%)</td>
+  <td>Sets the opacity level for the image.</td>
+  </tr>
+  <tr>
+  <td>saturate(%)</td>
+  <td>Saturates the image.</td>
+  </tr>
+  <tr>
+  <td>sepia(%)</td>
+  <td>Converts the image to sepia.</td>
+  </tr>
+  <tr>
+  <td>url()</td>
+  <td>The url() function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element.</td>
+  </tr>
+</table>
+
+<h6>Syntax :</h6>
+filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
 
 <h3>Need for this standard:</h3>
 

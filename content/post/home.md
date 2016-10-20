@@ -1,4 +1,5 @@
 +++
+date = "2016-10-06T13:20:20+05:30"
 description = ""
 draft = false
 tags = []
@@ -6,7 +7,6 @@ title = "CSS3 Properties"
 topics = []
 
 +++
-
 <a href="/post/background">Background</a><br>
 <a href="/post/border">Border</a><br>
 <a href="/post/color">Color</a><br>

@@ -1,5 +1,5 @@
 +++
-date = "2016-19-13T13:20:20+05:30"
+date = "2016-10-19T13:20:20+05:30"
 description = ""
 draft = false
 tags = []
@@ -70,16 +70,16 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <p>It is supported in all browsers.</p>
 
 <h2><u>word-wrap:</u></h2>
-<p>this property will either expand the word outside if it is too long to fit within an area (normal) or forcefully wraps the text even if it means splitting it in the middle of a word (break-word).</p>
+<p>This property will either expand the word outside if it is too long to fit within an area (normal) or forcefully wraps the text even if it means splitting it in the middle of a word (break-word).</p>
 
 <h4>and Hyphen:</h4>
 <p>The hyphens CSS property tells the browser how to hyphenate words when line-wrapping.</p>
 
 <h3>Need for this standard:</h3>
-<p>the need for these standard is also to handle the overflow of text outside the area/element.</p>
+<p>The need for these standard is also to handle the overflow of text outside the area/element.</p>
 
 <h3>Negative Impact:</h3>
-<p>hyphens are not very well supported in some of the browsers like (Chrome, Opera, Android, etc). Furthermore, hyphens is language-sensitive.</p>
+<p>'hyphens' are not very well supported in some of the browsers like (Chrome, Opera, Android, etc). Furthermore, hyphens is language-sensitive.</p>
 <p>In HTML, the language is determined by the ‘lang’ attribute, and browsers will hyphenate only if this attribute is present and if an appropriate hyphenation dictionary is available. You could also use a JavaScript library like Hyphenator.js which works with many languages and in lots of browsers.</p>
 
 <h3>Positive Impact:</h3>
@@ -91,7 +91,7 @@ Text overflow can only happen on block or inline-block level elements.</p>
 
 <h3>Need for this standard:</h3>
 
-<p>this property can break at words, hyphens or even between any two letters. This option is used mostly in a context where the text is predominantly using CJK characters with few non-CJK excerpts and it is desired that the text be better distributed on each line.</p>
+<p>This property can break at words, hyphens or even between any two letters. This option is used mostly in a context where the text is predominantly using CJK characters with few non-CJK excerpts and it is desired that the text be better distributed on each line.</p>
 
 <p>This property is very useful for CJK characters as ‘keep-all’ property sequences of CJK characters do not break.</p>
 

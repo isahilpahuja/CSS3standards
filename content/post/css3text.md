@@ -101,8 +101,8 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <p>Here's a mixed-script sample text:</p>
 
 <div style="display: flex;">
-  <div style="padding: 5px;margin:3px;" class="prop">
-      <p><strong>Text:</strong>这是一些汉字, and some Latin, و کمی نوشتنن عربی, และตัวอย่างการเขียนภาษาไทย.</p>
+  <div class="prop">
+      <p><b>Text: </b>这是一些汉字, and some Latin, و کمی نوشتنن عربی, และตัวอย่างการเขียนภาษาไทย.</p>
       <p><i>The break-points are determined as follows (indicated by ‘·’):</i></p>
       <p><u>‘word-break: normal’</u></p>
       <p>这·是·一·些·汉·字,·and·some·Latin,·و·کمی·نوشتنن·عربی·และ·ตัวอย่าง·การเขียน·ภาษาไทย.</p>
@@ -136,8 +136,8 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <style>
 .prop
 {
-background-color:#FFEBCD;
-color:#A52A2A;
+background-color:#B2DCDC;
+color:#005747;
 border: 1px solid;
 padding: 25px;
 margin: 25px;

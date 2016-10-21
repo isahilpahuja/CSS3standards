@@ -132,8 +132,8 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <style>
 .prop {
-    background-color:#FFEBCD;
-    color:#A52A2A;
+    background-color:#B2DCDC;
+    color:#005747;
     width: 250px;
     border: 1px solid;
     padding: 20px;

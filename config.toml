@@ -81,11 +81,6 @@ paginate = 10
         weight = 9
         url = "/post/animation"
       [[menu.main]]
-      name = "Box-sizing"
-      pre = "<i class='fa fa-book fa-fw'></i>"
-      weight = 10
-      url = "/post/box-sizing"
-      [[menu.main]]
       name = "Flexible Box Layout"
       pre = "<i class='fa fa-book fa-fw'></i>"
       weight = 11

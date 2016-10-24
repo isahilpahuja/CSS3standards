@@ -68,6 +68,12 @@ topics = []
 <p>This means that when we set width/height of an element it will appear bigger that the actual size we defined. The CSS3 box-sizing property allows us to include the padding and border in an element's total width and height.</p>
 <p>We can include the padding and border in the width/height defined without increasing the required size of the element using <i>‘box-sizing: border-box’</i>.</p>
 
+<h3>Negative Impact:</h3>
+<p>It is advised to use this property and define its value, as most of the libraries and browser may or may not define its value. In both the cases it will take the default value and again the designer might not get the desired output.</p>
+
+<h3>Positive Impact:</h3>
+<p>For a long time web developers have specified a smaller width value than they wanted, because they had to subtract out the padding and borders. The CSS3 box-sizing property allows us to include the padding and border in an element's total width and height there by allowing us to give values as required.</p>
+
 <h4>Working Section:</h4>
 <a href="https://jsbin.com/dunafux/3">Box-Sizing</a>
 
@@ -82,6 +88,9 @@ topics = []
 <p>The outline-offset is such property of the CSS3 User Interface, which can be used to define the space between the element's border and its outline. By default, the outline is drawn starting just outside the border edge.</p>
 <p>The space will be transparent (the parent will determine the background).</p>
 <p>Negative values must cause the outline to shrink into the border box.</p>
+
+<h3>Negative Impact:</h3>
+<p>This property is not supported in Internet Explorer, so if designed in some other browser, your design may break in IE.</p>
 
 <h4>Working Section:</h4>
 <a href="https://jsbin.com/kisunay/1">Outline-offset</a>

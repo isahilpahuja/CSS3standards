@@ -46,11 +46,6 @@ paginate = 10
     identifier = "border"
     url = "/post/border"
   [[menu.main]]
-    name = "Color"
-    pre = "<i class='fa fa-book fa-fw'></i>"
-    weight = 3
-    url = "/post/color"
-  [[menu.main]]
       name = "Multi-Column"
       pre = "<i class='fa fa-book fa-fw'></i>"
       weight = 4

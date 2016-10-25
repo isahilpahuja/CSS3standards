@@ -34,7 +34,9 @@ Firefox creates  columns to fill the width of the parent div; WebKit creates col
 <p>Try the below link in both firefox and chrome to see the difference!!<p>
 <a href="http://codepen.io/katydecorah/pen/39ea7b0f24b5806969dc4c275461c5b1">Multi column</a>
 
+<h4>References</h4>
 
+https://css-tricks.com/guide-responsive-friendly-css-columns/
 
 <h4>Point of Contact:</h4>
 

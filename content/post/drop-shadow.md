@@ -3,7 +3,7 @@ date = "2016-10-06T13:20:20+05:30"
 description = ""
 draft = false
 tags = []
-title = "CSS3 Background"
+title = "CSS3 Drop Shadow"
 topics = []
 
 +++
@@ -56,11 +56,6 @@ If you use the background shorthand and fail to declare any of the individual pr
 <a href="https://jsbin.com/johariyina/edit?html,output">Background Shorthand</a>
 
 <a href= "https://jsbin.com/xaseyahade/edit?html,output">Background Properties</a>
-
-<h4>References:</h4>
-
-http://www.standardista.com/css3/css3-background-properties/
-
 
 <h4>Point of Contact:</h4>
 

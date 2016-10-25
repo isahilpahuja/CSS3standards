@@ -9,7 +9,6 @@ topics = []
 +++
 <a href="/post/background">Background</a><br>
 <a href="/post/border">Border</a><br>
-<a href="/post/color">Color</a><br>
 <a href="/post/multi-column">Multi-Column</a><br>
 <a href="/post/filters">Filters</a><br>
 <a href="/post/transitions">Transitions</a><br>

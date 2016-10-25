@@ -11,12 +11,7 @@ topics = []
 
 <p>The Flexbox Layout officially called CSS Flexible Box Layout Module is new layout module in CSS3 made to improve the items align, directions and order in the container even when they are with dynamic or even unknown size. Using flexible widths and heights, elements can be aligned to fill a space or distribute space between elements.</p>
 
-<p>It is a layout mode providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices.</p>
 <p>It lacks many of the more complex text- or document-centric properties that can be used in block layout, such as floats and columns. In return it gains simple and powerful tools for distributing space and aligning content in ways that web apps often needs.</p>
-
-<p>The flex layout is constituted of parent container referred as <strong>flex container</strong> and its immediate children which are called <strong>flex items</strong>.</p>
-
-<p>In-order to use flexbox layout, we just need to set the ‘display’ property on the parent container and all its immediate children will become automatically flex items.</p>
 
 <p>The following are the properties distributed for flexbox container:</p>
     <ul>

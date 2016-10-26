@@ -48,6 +48,34 @@ The transition-timing-function property can have the following values:
 
 <a href="https://jsbin.com/zitize/edit?html,output">Transition-timing-function demo</a>
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>26.0<br/>4.0 -webkit-</td>
+    <td>6.1<br/>3.1 -webkit</td>
+    <td>16.0<br/>4.0 -moz-</td>
+    <td>12.1<br/>10.5 -o-</td>
+    <td>10.0</td>
+    <td>2.1</td>
+    <td>3.2</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>Normally when the value of a CSS property changes, the rendered result is instantly updated, with the affected elements immediately changing from the old property value to the new property value. Transitions properties are needed to animate smoothly from the old state to the new state over time.</p>

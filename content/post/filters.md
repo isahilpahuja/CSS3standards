@@ -62,6 +62,34 @@ title = "CSS3 Filters"
 <h6>Syntax :</h6>
 filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>53.0<br/>18.0 -webkit-</td>
+    <td>9.1<br/>6.0 -webkit-</td>
+    <td>35.0</td>
+    <td>40.0<br/>15.0 -webkit-</td>
+    <td>13.0</td>
+    <td>4.4 (-webkit-)</td>
+    <td>6 (-webkit-)</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>The filter property used for graphical effects like blurring, sharpening, or color shifting an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders</p>

@@ -7,8 +7,8 @@ title = "CSS3 Gradients"
 
 +++
 
-<p>Gradients displays the combination of two or more colors. 
-Gradients are typically one color that fades into another, but in CSS you can control every aspect of how that happens, 
+<p>Gradients displays the combination of two or more colors.
+Gradients are typically one color that fades into another, but in CSS you can control every aspect of how that happens,
 from the direction to the colors (as many as you want) to where those color changes happen.</p>
 
 <h3>CSS3 defines two types of gradients:</h3>
@@ -30,6 +30,34 @@ To create a radial gradient you must also define at least two color stops.
 
 <h6>Syntax :</h6>
 background: radial-gradient(shape size at position, start-color, ..., last-color);
+
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>26.0<br/>10.0 -webkit-</td>
+    <td>6.1<br/>5.1 -webkit-</td>
+    <td>16.0<br/>3.6 -moz-</td>
+    <td>12.1<br/>11.1 -o-</td>
+    <td>10.0</td>
+    <td>4.4</td>
+    <td>5</td>
+  </tr>
+</tbody>
+</table>
 
 <h3>Need for this standard:</h3>
 

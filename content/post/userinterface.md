@@ -43,6 +43,57 @@ topics = []
 </tbody>
 </table>
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+<thead>
+  <tr>
+    <th>Property</th>
+    <th>Chrome</th>
+    <th>Safari</th>
+    <th>Firefox</th>
+    <th>Opera</th>
+    <th>Internet Explorer</th>
+    <th>Android</th>
+    <th>iOS</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>resize</td>
+    <td>4.0</td>
+    <td>4.0</td>
+    <td>5.0<br/>4.0 -moz-</td>
+    <td>15.0</td>
+    <td>Not supported</td>
+    <td>unknown</td>
+    <td>unknown</td>
+  </tr>
+  <tr>
+    <td>outline-offset</td>
+    <td>4.0</td>
+    <td>4.0</td>
+    <td>5.0<br/>4.0 -moz-</td>
+    <td>9.5</td>
+    <td>Not supported</td>
+    <td>unknown</td>
+    <td>unknown</td>
+  </tr>
+  <tr>
+  <td>box-sizing</td>
+  <td>10.0<br/>4.0 -webkit-</td>
+  <td>5.1<br/>3.1 -webkit-</td>
+  <td>29.0<br/>2.0 -moz-</td>
+  <td>9.5</td>
+  <td>8.0</td>
+  <td>2.1 -webkit-</td>
+  <td>3.2</td>
+  </tr>
+</tbody>
+</table>
+
+
 <h2><u>resize:</u></h2>
 <p>The resize property specifies whether or not an element should be resizable by the user.</p>
 
@@ -96,9 +147,10 @@ topics = []
 <a href="https://jsbin.com/kisunay/1">Outline-offset</a>
 
 <h4>Reference:</h4>
-<a href="https://www.w3.org/TR/css-ui-3/#propdef-box-sizing">CSS Basic User Interface Module Level 3 (CSS3 UI)</a><br>
-<a href="http://www.html5andcss3.org/css3userinterface.php">CSS3 User Interface Tutorial</a><br>
-<a href="http://www.w3schools.com/css/css3_user_interface.asp">CSS3 User Interface</a><br>
+<a href="https://www.w3.org/TR/css-ui-3/#propdef-box-sizing">CSS Basic User Interface Module Level 3 (CSS3 UI)</a><br/>
+<a href="http://www.html5andcss3.org/css3userinterface.php">CSS3 User Interface Tutorial</a><br/>
+<a href="http://caniuse.com/#search=resize">CSS resize property</a><br/>
+<a href="http://www.w3schools.com/css/css3_user_interface.asp">CSS3 User Interface</a><br/>
 <a href="https://drafts.csswg.org/css-ui-3/#outline-offset">Outline-Offset</a>
 
 <h4>Point of Contact:</h4>

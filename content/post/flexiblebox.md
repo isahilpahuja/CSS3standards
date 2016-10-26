@@ -109,6 +109,38 @@ topics = []
 </tbody>
 </table>
 
+<h4>Browser Support:</h4>
+<p>Broken up by "version" of flexbox:</p>
+<ul>
+<li>(new) means the recent syntax from the specification (e.g. display: flex;)</li>
+<li>(tweener) means an odd unofficial syntax from 2011 (e.g. display: flexbox;)</li>
+<li>(old) means the old syntax from 2009 (e.g. display: box;)</li>
+</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>20 (old)<br/>21+ (new)</td>
+    <td>3.1+ (old)<br/>6.1+ (new)</td>
+    <td>2-21 (old)<br/>22+ (new)</td>
+    <td>12.1+ (new)</td>
+    <td>10 (tweener)<br/>11+ (new)</td>
+    <td>2.1+ (old)<br/>4.4+ (new)</td>
+    <td>3.2+ (old)<br/>7.1+ (new)</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>Particularly flexbox is used for scaling, vertically and horizontally aligning, and re-ordering elements within a container, distributing space and changing the direction of a column or row.
@@ -142,10 +174,11 @@ We no longer need to rely on solutions like, stretching content with position: a
 
 
 <h4>Reference:</h4>
-<a href="https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/">CSS Flexible Box Layout Module Level 1</a><br>
-<a href="https://chriswrightdesign.com/experiments/using-flexbox-today/">Using Flexbox today</a><br>
-<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a><br>
-<a href="http://brolik.com/blog/when-to-use-flexbox/">When to use Flexbox</a>
+<a href="https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/">CSS Flexible Box Layout Module Level 1</a><br/>
+<a href="https://chriswrightdesign.com/experiments/using-flexbox-today/">Using Flexbox today</a><br/>
+<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a><br/>
+<a href="http://brolik.com/blog/when-to-use-flexbox/">When to use Flexbox</a><br/>
+<a href="http://caniuse.com/#search=Flexbox">Flexible Box Layout Module</a>
 
 <h4>Point of Contact:</h4>
 

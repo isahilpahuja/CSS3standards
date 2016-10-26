@@ -19,6 +19,34 @@ topics = []
   <li>Declare both (recommended)</li>
 </ul>
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>50.0<br/>4.0 -webkit-</td>
+    <td>9.0<br/>3.1 -webkit-</td>
+    <td>2.0 -moz-</td>
+    <td>37.0<br/>15.0 -webkit-<br/>11.1</td>
+    <td>10.0</td>
+    <td>2.1</td>
+    <td>3.2</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>Though there is no as such specs provided for this property it is always recommended never to use both column-count and column-width together.</p>
@@ -36,7 +64,8 @@ Firefox creates  columns to fill the width of the parent div; WebKit creates col
 
 <h4>References</h4>
 
-https://css-tricks.com/guide-responsive-friendly-css-columns/
+<a href="https://css-tricks.com/guide-responsive-friendly-css-columns/">Guide to Responsive-Friendly CSS Columns</a><br/>
+<a href="http://caniuse.com/#search=column">CSS3 Multiple column layout</a>
 
 <h4>Point of Contact:</h4>
 

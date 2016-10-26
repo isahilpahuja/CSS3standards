@@ -60,6 +60,34 @@ Once the @keyframes are defined, the animation properties must be added in order
   <li>animation-play-state</li>
 </ul>
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>43.0<br/>4.0 -webkit-</td>
+    <td>9.0<br/>4.0 -webkit-</td>
+    <td>16.0<br/>5.0 -moz-</td>
+    <td>30.0<br/>15.0 -webkit-<br/>12.0 -o-</td>
+    <td>10.0</td>
+    <td>4.4</td>
+    <td>4</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>For cleaner and faster code, one can use the animation shorthand, but it is always advisable to use the additional animation properties instead of the shorthand properties. This is because, not declaring few properties explicitly will set them to their default values which might take away the intention of the whole property. Also it becomes difficult to memorize the animation sequence for the shorthand, whereas it’s easier to remember them individually.</p>
@@ -120,9 +148,10 @@ Once the @keyframes are defined, the animation properties must be added in order
 <a href= "https://jsbin.com/ceqitov/4">Animation Properties</a>
 
 <h4>Reference:</h4>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Defining_the_animation_sequence_using_keyframes">Using CSS animations</a><br>
-<a href="https://www.w3.org/TR/css3-animations/#the-animation-shorthand-property-">CSS Animations</a><br>
-<a href="https://robots.thoughtbot.com/css-animation-for-beginners">CSS Animation for Beginners</a><br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Defining_the_animation_sequence_using_keyframes">Using CSS animations</a><br/>
+<a href="https://www.w3.org/TR/css3-animations/#the-animation-shorthand-property-">CSS Animations</a><br/>
+<a href="https://robots.thoughtbot.com/css-animation-for-beginners">CSS Animation for Beginners</a><br/>
+<a href="http://caniuse.com/#feat=css-animation">CSS Animation</a><br/>
 <a href="https://css-tricks.com/almanac/properties/a/animation/">CSS-Tricks Animation</a>
 
 <h4>Point of Contact:</h4>

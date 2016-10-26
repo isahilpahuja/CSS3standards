@@ -48,6 +48,56 @@ topics = []
 <p>This property in CSS deals with situations where text is clipped when it overflows the element's box. It can be clipped (i.e. cut off, hidden or clip) or display an ellipsis ('…').
 Text overflow can only happen on block or inline-block level elements.</p>
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>text-overflow</td>
+    <td>4.0</td>
+    <td>3.1</td>
+    <td>7.0</td>
+    <td>11.0<br/>9.0 -o-</td>
+    <td>6.0</td>
+    <td>2.1</td>
+    <td>3.2</td>
+  </tr>
+  <tr>
+    <td>word-wrap</td>
+    <td>23.0</td>
+    <td>6.1</td>
+    <td>3.5</td>
+    <td>12.1</td>
+    <td>5.5</td>
+    <td>2.1</td>
+    <td>3.2</td>
+  </tr>
+  <tr>
+    <td>word-break</td>
+    <td>4.0</td>
+    <td>3.1</td>
+    <td>15.0</td>
+    <td>15.0</td>
+    <td>5.5</td>
+    <td>2.1</td>
+    <td>3.2</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>If the element (area/div) has a fixed defined width the text might overflow and appear out of the element, in-order to handle this the properties overflow and white-space are defined in CSS; but then we can further define whether the overflowed text should be cut-off or to display an ellipsis (where its default value is ‘clip’).</p>
@@ -127,6 +177,8 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <h4>Reference:</h4>
 <a href="https://www.w3.org/TR/css-text-3/">CSS Text Module Level 3</a><br>
 <a href="https://justmarkup.com/log/2015/07/dealing-with-long-words-in-css/">Dealing with long words in CSS</a><br>
+<a href="http://css3files.com/text/">CSS3 Files</a><br/>
+<a href="https://css-tricks.com/almanac/properties/t/">CSS3 Text (css-tricks)</a><br/>
 <a href="http://www.w3schools.com/css/css3_text_effects.asp">CSS3 Text</a>
 
 <h4>Point of Contact:</h4>

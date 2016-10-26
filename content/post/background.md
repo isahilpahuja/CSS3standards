@@ -32,6 +32,66 @@ The different CSS3 Background properties are:
   <li>background-inline-policy</li>
 </ul>
 
+<h4>Browser Support:</h4>
+<p>The numbers in the table specify the first browser version that fully supports the property.</p>
+<p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Firefox</th>
+      <th>Opera</th>
+      <th>Internet Explorer</th>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>background-image (with multiple backgrounds)</td>
+    <td>4.0</td>
+    <td>3.1</td>
+    <td>3.6</td>
+    <td>11.5</td>
+    <td>9.0</td>
+    <td>2.2</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>background-size</td>
+    <td>4.0<br/>1.0 -webkit-</td>
+    <td>4.1<br/>3.0 -webkit-</td>
+    <td>4.0<br/>3.6 -moz-</td>
+    <td>10.5<br/>10.0 -o-</td>
+    <td>9.0</td>
+    <td>2.3</td>
+    <td>4.0</td>
+  </tr>
+  <tr>
+    <td>background-origin</td>
+    <td>1.0</td>
+    <td>3.0</td>
+    <td>4.0</td>
+    <td>10.5</td>
+    <td>9.0</td>
+    <td>2.2</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>background-clip</td>
+    <td>4.0</td>
+    <td>3.0</td>
+    <td>4.0</td>
+    <td>10.5</td>
+    <td>9.0</td>
+    <td>2.2</td>
+    <td>4</td>
+  </tr>
+</tbody>
+</table>
+
 <h3>Need for this standard:</h3>
 
 <p>It is always advisable to use the above properties in specific instead of using the shorthand as not declaring few properties explicitly will set them to their default values which might take away the intention of the whole property.</p>

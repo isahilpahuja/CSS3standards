@@ -1,11 +1,9 @@
-+++
-categories = []
-date = "2016-10-14T12:14:58+05:30"
-description = ""
-keywords = []
-title = "CSS3 Transitions"
-
-+++
+---
+title: CSS3 Transitions
+prev: /post/transforms
+next: /post/userinterface
+weight: 8
+---
 
 <p>CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. For example, if you change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.</p>
 
@@ -86,8 +84,10 @@ The transition-timing-function property can have the following values:
 <a href="https://jsbin.com/daseva/edit?html,output">Transition</a>
 
 <h4>References:</h4>
-<a href="http://www.w3schools.com/css/css3_transitions.asp">http://www.w3schools.com/css/css3_transitions.asp</a><br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions</a>
+
+https://www.w3schools.com/css/css3_transitions.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 
 <h4>Point of Contact:</h4>
 

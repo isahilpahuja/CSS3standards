@@ -1,12 +1,9 @@
-+++
-date = "2016-10-13T13:20:20+05:30"
-description = ""
-draft = false
-tags = []
-title = "CSS3 Animation"
-topics = []
-
-+++
+---
+title: CSS3 Animations
+prev: /post
+next: /post/css3text
+weight: 1
+---
 
 
 <p>CSS animations are made up of two basic building blocks.</p>
@@ -26,6 +23,7 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <div style="display: flex;">
 <div style="text-align:center;padding: 5px;margin:3px;">
+<figcaption>Animation properties</figcaption>
 <div class="prop">
   div<br/>
     {<br/>
@@ -33,15 +31,16 @@ Once the @keyframes are defined, the animation properties must be added in order
     animattion-name:bounceIn;<br/>
   }
 </div>
-<figcaption>The animation properties:</figcaption>
+
 </div>
 <div style="text-align:center;padding: 5px;margin:3px;">
-  <div class="prop" style="padding:30px">
+<figcaption>Shorthand syntax</figcaption>
+  <div class="prop">
   div<br/> {<br/>
     animation: bounceIn 2s;<br/>
   }
   </div>    
-<figcaption>or the shorthand syntax:</figcaption>
+
 </div>
 </div>
 
@@ -158,18 +157,3 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <p>Minu Kumari</p>
 <a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a>
-
-<style>
-.prop {
-    background-color:#B2DCDC;
-    color:#005747;
-    width: 250px;
-    border: 1px solid;
-    padding: 20px;
-    margin: 25px;
-    text-align: left;
-    box-sizing: content-box;
-    border-radius:10px;
-    font-size:14px;
-}
-</style>

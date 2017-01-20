@@ -1,20 +1,16 @@
-+++
-date = "2016-10-06T13:20:20+05:30"
-description = ""
-draft = false
-tags = []
-title = "CSS3 Drop Shadow"
-topics = []
-
-+++
-
+---
+title: CSS3 Drop Shadow
+prev: /post/css3text
+next: /post/filters
+weight: 3
+---
 
 <p>CSS3 Background has about 8 properties which is all included in the shorthand ‘background’.
 The Background shorthand takes the following property values in the same order:</p>
 
 <p> background: background-image | background-position / background-size | background-repeat | background-attachment | background-origin | background-clip | background-color</p>
 
-<p><strong>Ex:</strong>  background: url(myImg.jpg) bottom 20px right 20px / 200px 100px no-repeat fixed red;<p>
+<p><strong>Ex:</strong>  <span class="prop">background: url(myImg.jpg) bottom 20px right 20px / 200px 100px no-repeat fixed red;</span><p>
 
 The different CSS3 Background properties are:
 

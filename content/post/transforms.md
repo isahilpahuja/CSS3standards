@@ -1,12 +1,9 @@
-+++
-date = "2016-10-06T13:20:20+05:30"
-description = ""
-draft = false
-tags = []
-title = "CSS3 Transforms"
-topics = []
-
-+++
+---
+title: CSS3 Transforms
+prev: /post/multi-column
+next: /post/transitions
+weight: 7
+---
 
 
 <p>The transform property allows you to visually manipulate an element by skewing, rotating, translating, or scaling</p>
@@ -81,6 +78,10 @@ topics = []
 <p>transform will not cause other elements to flow around it.</p>
 <h4>Working Section:</h4>
 <a href="https://jsbin.com/zepafofulo/edit?html,output">https://jsbin.com/zepafofulo/edit?html,output</a>
+
+<h4>References:</h4>
+
+https://css-tricks.com/almanac/properties/t/transform/
 
 <h4>Point of Contact:</h4>
 

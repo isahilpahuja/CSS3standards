@@ -1,14 +1,9 @@
-+++
-date = "2016-10-16T13:20:20+05:30"
-description = ""
-draft = false
-tags = []
-title = "Flexible Box Layouts"
-topics = []
-
-+++
-
-
+---
+title: CSS3 Flexible Layout
+prev: /post/filters
+next: /post/gradients
+weight: 5
+---
 <p>The Flexbox Layout officially called CSS Flexible Box Layout Module is new layout module in CSS3 made to improve the items align, directions and order in the container even when they are with dynamic or even unknown size. Using flexible widths and heights, elements can be aligned to fill a space or distribute space between elements.</p>
 
 <p>It lacks many of the more complex text- or document-centric properties that can be used in block layout, such as floats and columns. In return it gains simple and powerful tools for distributing space and aligning content in ways that web apps often needs.</p>
@@ -174,11 +169,16 @@ We no longer need to rely on solutions like, stretching content with position: a
 
 
 <h4>Reference:</h4>
-<a href="https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/">CSS Flexible Box Layout Module Level 1</a><br/>
-<a href="https://chriswrightdesign.com/experiments/using-flexbox-today/">Using Flexbox today</a><br/>
-<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a><br/>
-<a href="http://brolik.com/blog/when-to-use-flexbox/">When to use Flexbox</a><br/>
-<a href="http://caniuse.com/#search=Flexbox">Flexible Box Layout Module</a>
+
+https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/
+
+https://chriswrightdesign.com/experiments/using-flexbox-today/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://brolik.com/blog/when-to-use-flexbox/
+
+https://caniuse.com/#search=Flexbox
 
 <h4>Point of Contact:</h4>
 

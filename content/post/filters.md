@@ -1,16 +1,13 @@
-+++
-categories = []
-date = "2016-10-14T12:14:19+05:30"
-description = ""
-keywords = []
-title = "CSS3 Filters"
-
-+++
-
+---
+title: CSS3 Filters
+prev: /post/drop-shadow
+next: /post/flexiblebox
+weight: 4
+---
 <p>CSS Filters are a powerful tool that authors can use to achieve varying visual effects (sort of like Photoshop filters for the browser). The CSS filter property provides access to effects like blur or color shifting on an element’s rendering before the element is displayed. Filters are commonly used to adjust the rendering of an image, a background, or a border.</p>
 
 
-<h6>The different Filter Functions are :</h6>
+<h3>The different Filter Functions are :</h3>
 
 <table>
 <tr>
@@ -59,8 +56,8 @@ title = "CSS3 Filters"
   </tr>
 </table>
 
-<h6>Syntax :</h6>
-filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
+<h4>Syntax :</h4>
+<span class="prop">filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | invert() | opacity() | saturate() sepia() | url();</span>
 
 <h4>Browser Support:</h4>
 <p>The numbers in the table specify the first browser version that fully supports the property.</p>

@@ -1,12 +1,9 @@
-+++
-date = "2016-10-06T13:20:20+05:30"
-description = ""
-draft = false
-tags = []
-title = "CSS3 Multi-Column Layouts"
-topics = []
-
-+++
+---
+title: CSS3 Multi Column
+prev: /post/gradients
+next: /post/transforms
+weight: 7
+---
 
 
 <p>CSS columns you can create a print-inspired layout  that can adapt to a responsive canvas</p>
@@ -47,6 +44,10 @@ topics = []
 </tbody>
 </table>
 
+<p>Browsers that do not support these properties like Internet Explorer 8 or 9 (and below) will display your content in one single column.
+We can provide a fallback for IE8 and the likes by detecting support for multiple columns by using Modernizr.
+</p>
+
 <h3>Need for this standard:</h3>
 
 <p>Though there is no as such specs provided for this property it is always recommended never to use both column-count and column-width together.</p>
@@ -64,8 +65,9 @@ Firefox creates  columns to fill the width of the parent div; WebKit creates col
 
 <h4>References</h4>
 
-<a href="https://css-tricks.com/guide-responsive-friendly-css-columns/">Guide to Responsive-Friendly CSS Columns</a><br/>
-<a href="http://caniuse.com/#search=column">CSS3 Multiple column layout</a>
+https://css-tricks.com/guide-responsive-friendly-css-columns/
+
+https://caniuse.com/#search=column
 
 <h4>Point of Contact:</h4>
 

@@ -1,13 +1,9 @@
-+++
-date = "2016-10-19T13:20:20+05:30"
-description = ""
-draft = false
-tags = []
-title = "CSS3 Text"
-topics = []
-
-+++
-
+---
+title: CSS3 Text
+prev: /post/animation
+next: /post/drop-shadow
+weight: 2
+---
 
 <p>CSS has various text properties that makes it easier to align, color, transform or format the displayed text content. CSS3 contains several new text features.</p>
 <p>The below table shows the default values and the property values for each of the above properties.</p>

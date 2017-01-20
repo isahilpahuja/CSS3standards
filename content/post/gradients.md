@@ -1,12 +1,9 @@
-+++
-categories = []
-date = "2016-10-14T12:15:21+05:30"
-description = ""
-keywords = []
-title = "CSS3 Gradients"
-
-+++
-
+---
+title: CSS3 Gradients
+prev: /post/flexiblebox
+next: /post/multi-column
+weight: 6
+---
 <p>Gradients displays the combination of two or more colors.
 Gradients are typically one color that fades into another, but in CSS you can control every aspect of how that happens,
 from the direction to the colors (as many as you want) to where those color changes happen.</p>
@@ -20,8 +17,8 @@ Radial Gradients (defined by their center)<br>
 Linear gradients are used to arrange two or more colors in linear formats like top to bottom.
 To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
-<h6>Syntax :</h6>
-background: linear-gradient(direction, color-stop1, color-stop2, ...);
+<h4>Syntax :</h4>
+<span class="prop">background: linear-gradient(direction, color-stop1, color-stop2, ...);</span>
 
 
 <h4>Radial gradients</h4>
@@ -29,7 +26,7 @@ Radial gradients appears at center.
 To create a radial gradient you must also define at least two color stops.
 
 <h6>Syntax :</h6>
-background: radial-gradient(shape size at position, start-color, ..., last-color);
+<span class="prop">background: radial-gradient(shape size at position, start-color, ..., last-color);</span>
 
 <h4>Browser Support:</h4>
 <p>The numbers in the table specify the first browser version that fully supports the property.</p>

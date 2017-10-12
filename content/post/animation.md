@@ -1,5 +1,5 @@
 ---
-title: CSS3 Animations
+title: Animations
 prev: /post
 next: /post/css3text
 weight: 1
@@ -28,7 +28,21 @@ Once the @keyframes are defined, the animation properties must be added in order
   div<br/>
     {<br/>
     animation-duration: 2s;<br/>
-    animattion-name:bounceIn;<br/>
+    animation-name:bounceIn;<br/>
+    @-keyframes bounceIn {
+      0% {
+        opacity: 0;
+        -moz-transform: scale(0.8);
+        }<br/>
+      50% {
+      opacity: 1;
+      -moz-transform: scale(1.05);
+      }<br/>
+      100% {
+      opacity: 1;
+      -moz-transform: scale(1);
+      }
+    }
   }
 </div>
 
@@ -45,7 +59,7 @@ Once the @keyframes are defined, the animation properties must be added in order
 </div>
 
 <p><strong>Animation Property Shorthand:</strong></p>
-<p><strong>animation: </strong>[animation-name][animation-duration][animation-timing-function][animation-delay] [animation-iteration-count][animation-direction][animation-fill-mode][animation-play-state];</p>
+<p><strong>animation: </strong>[animation-name] [animation-duration] [animation-timing-function] [animation-delay] [animation-iteration-count]  [animation-direction] [animation-fill-mode] [animation-play-state];</p>
 
 <p><strong>Additional Animation Properties (recommended standard):</strong></p>
 <ul>
@@ -146,7 +160,7 @@ Once the @keyframes are defined, the animation properties must be added in order
 <p>Using additional animation properties:</p>
 <a href= "https://jsbin.com/ceqitov/4">Animation Properties</a>
 
-<h4>Reference:</h4>
+<h4>References:</h4>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Defining_the_animation_sequence_using_keyframes">Using CSS animations</a><br/>
 <a href="https://www.w3.org/TR/css3-animations/#the-animation-shorthand-property-">CSS Animations</a><br/>
 <a href="https://robots.thoughtbot.com/css-animation-for-beginners">CSS Animation for Beginners</a><br/>
@@ -155,5 +169,4 @@ Once the @keyframes are defined, the animation properties must be added in order
 
 <h4>Point of Contact:</h4>
 
-<p>Minu Kumari</p>
-<a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a>
+<p>Minu Kumari <a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a></p>

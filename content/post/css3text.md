@@ -1,5 +1,5 @@
 ---
-title: CSS3 Text
+title: Text
 prev: /post/animation
 next: /post/drop-shadow
 weight: 2
@@ -36,63 +36,98 @@ weight: 2
 
 <ul>
   <li>text-overflow</li>
+    <h5>Browser Support:</h5>
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Chrome</th>
+          <th>Safari</th>
+          <th>Firefox</th>
+          <th>Opera</th>
+          <th>Internet Explorer</th>
+          <th>Android</th>
+          <th>iOS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>text-overflow</td>
+          <td>4.0</td>
+          <td>3.1</td>
+          <td>7.0</td>
+          <td>11.0<br/>9.0 -o-</td>
+          <td>6.0</td>
+          <td>2.1</td>
+          <td>3.2</td>
+        </tr>
+        </tbody>
+      </table>
   <li>word-wrap</li>
+  <h5>Browser Support:</h5>
+  <table>
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Chrome</th>
+        <th>Safari</th>
+        <th>Firefox</th>
+        <th>Opera</th>
+        <th>Internet Explorer</th>
+        <th>Android</th>
+        <th>iOS</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>word-wrap</td>
+      <td>23.0</td>
+      <td>6.1</td>
+      <td>3.5</td>
+      <td>12.1</td>
+      <td>5.5</td>
+      <td>2.1</td>
+      <td>3.2</td>
+    </tr>
+      </tbody>
+    </table>
   <li>word-break</li>
+  <h5>Browser Support:</h5>
+  <table>
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Chrome</th>
+        <th>Safari</th>
+        <th>Firefox</th>
+        <th>Opera</th>
+        <th>Internet Explorer</th>
+        <th>Android</th>
+        <th>iOS</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>word-break</td>
+      <td>4.0</td>
+      <td>3.1</td>
+      <td>15.0</td>
+      <td>15.0</td>
+      <td>5.5</td>
+      <td>2.1</td>
+      <td>3.2</td>
+    </tr>
+      </tbody>
+    </table>
 </ul>
 
 <h2><u>text-overflow:</u></h2>
 <p>This property in CSS deals with situations where text is clipped when it overflows the element's box. It can be clipped (i.e. cut off, hidden or clip) or display an ellipsis ('…').
 Text overflow can only happen on block or inline-block level elements.</p>
 
-<h4>Browser Support:</h4>
+
 <p>The numbers in the table specify the first browser version that fully supports the property.</p>
 <p>Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.</p>
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Chrome</th>
-      <th>Safari</th>
-      <th>Firefox</th>
-      <th>Opera</th>
-      <th>Internet Explorer</th>
-      <th>Android</th>
-      <th>iOS</th>
-    </tr>
-  </thead>
-<tbody>
-  <tr>
-    <td>text-overflow</td>
-    <td>4.0</td>
-    <td>3.1</td>
-    <td>7.0</td>
-    <td>11.0<br/>9.0 -o-</td>
-    <td>6.0</td>
-    <td>2.1</td>
-    <td>3.2</td>
-  </tr>
-  <tr>
-    <td>word-wrap</td>
-    <td>23.0</td>
-    <td>6.1</td>
-    <td>3.5</td>
-    <td>12.1</td>
-    <td>5.5</td>
-    <td>2.1</td>
-    <td>3.2</td>
-  </tr>
-  <tr>
-    <td>word-break</td>
-    <td>4.0</td>
-    <td>3.1</td>
-    <td>15.0</td>
-    <td>15.0</td>
-    <td>5.5</td>
-    <td>2.1</td>
-    <td>3.2</td>
-  </tr>
-</tbody>
-</table>
 
 <h3>Need for this standard:</h3>
 
@@ -115,6 +150,18 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <h3>Positive Impact:</h3>
 <p>It is supported in all browsers.</p>
 
+
+<h4>For example: </h4>
+
+<div class="prop">
+    <p>This div uses "text-overflow:clip":</p>
+    <div style = "white-space: nowrap; width: 12em; overflow: hidden;text-overflow: clip; border: 1px solid #000000;">
+    This is some long text that will not fit in the box</div>
+
+    <p>This div uses "text-overflow:ellipsis":</p>
+    <div style = "white-space: nowrap; width: 12em; overflow: hidden;text-overflow: ellipsis; border: 1px solid #000000;">This is some long text that will not fit in the box</div>
+  </div>
+
 <h2><u>word-wrap:</u></h2>
 <p>This property will either expand the word outside if it is too long to fit within an area (normal) or forcefully wraps the text even if it means splitting it in the middle of a word (break-word).</p>
 
@@ -131,6 +178,14 @@ Text overflow can only happen on block or inline-block level elements.</p>
 <h3>Positive Impact:</h3>
 <p>Unlike text-overflow, they do not require any additional properties to be defined, they can be used directly.</p>
 <p>Word-wrap is supported in all browsers.</p>
+
+<h4>For example: </h4>
+
+<p>word-wrap: break-word; is used in the below example</p>
+<div class="prop">
+    <p style="width: 11em; border: 1px solid #000000;word-wrap: break-word;"> This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword.
+    The long word will break and wrap to the next line.</p>
+  </div>
 
 <h2><u>word-break:</u></h2>
 <p>a CSS property to specify whether to break lines within words. </p>

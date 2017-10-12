@@ -1,5 +1,5 @@
 ---
-title: CSS3 Multi Column
+title: Multi Column
 prev: /post/gradients
 next: /post/transforms
 weight: 7
@@ -71,5 +71,4 @@ https://caniuse.com/#search=column
 
 <h4>Point of Contact:</h4>
 
-<p>Meghana Raju</p>
-<a href="mailto:meraju@deloitte.com">meraju@deloitte.com</a>
+<p>Meghana Raju <a href="mailto:meraju@deloitte.com">meraju@deloitte.com</a></p>

@@ -1,5 +1,5 @@
 ---
-title: CSS3 Background
+title: Background
 prev: /post/border
 weight: 12
 ---
@@ -91,6 +91,7 @@ The different CSS3 Background properties are:
 <h3>Need for this standard:</h3>
 
 <p>It is always advisable to use the above properties in specific instead of using the shorthand as not declaring few properties explicitly will set them to their default values which might take away the intention of the whole property.</p>
+<p>We can specify multiple background images by comma separating them. This enables to increase the scope of the background property.</p>
 
 <h3>Negative Impact:</h3>
 If you use the background shorthand and fail to declare any of the individual properties that make up the shorthand, those properties will revert to their default values listed below:
@@ -120,5 +121,4 @@ http://www.standardista.com/css3/css3-background-properties/
 
 <h4>Point of Contact:</h4>
 
-<p>Meghana Raju</p>
-<a href="mailto:meraju@deloitte.com">meraju@deloitte.com</a>
+<p>Meghana Raju <a href="mailto:meraju@deloitte.com">meraju@deloitte.com</a></p>

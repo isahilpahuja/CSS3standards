@@ -1,5 +1,5 @@
 ---
-title: CSS3 Gradients
+title: Gradients
 prev: /post/flexiblebox
 next: /post/multi-column
 weight: 6
@@ -17,7 +17,7 @@ Radial Gradients (defined by their center)<br>
 Linear gradients are used to arrange two or more colors in linear formats like top to bottom.
 To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
-<h4>Syntax :</h4>
+<h3>Syntax :</h3>
 <span class="prop">background: linear-gradient(direction, color-stop1, color-stop2, ...);</span>
 
 
@@ -25,7 +25,7 @@ To create a linear gradient you must define at least two color stops. Color stop
 Radial gradients appears at center.
 To create a radial gradient you must also define at least two color stops.
 
-<h6>Syntax :</h6>
+<h3>Syntax :</h3>
 <span class="prop">background: radial-gradient(shape size at position, start-color, ..., last-color);</span>
 
 <h4>Browser Support:</h4>
@@ -72,5 +72,4 @@ To create a radial gradient you must also define at least two color stops.
 
 <h4>Point of Contact:</h4>
 
-<p>Sahil Kumar</p>
-<a href="mailto:sahikumar@deloitte.com">sahikumar@deloitte.com</a>
+<p>Sahil Kumar <a href="mailto:sahikumar@deloitte.com">sahikumar@deloitte.com</a></p>

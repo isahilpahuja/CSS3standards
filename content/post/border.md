@@ -1,5 +1,5 @@
 ---
-title: CSS3 Border
+title: Border
 prev: /post/userinterface
 next: /post/background
 weight: 11
@@ -70,5 +70,4 @@ One value: all four corners are rounded equally.
 https://www.w3schools.com/css/css_border.asp
 
 <h4>Point of Contact:</h4>
-<p>Meghna Khound</p>
-<a href="mailto:mkhound@deloitte.com">mkhound@deloitte.com</a>
+<p>Meghna Khound <a href="mailto:mkhound@deloitte.com">mkhound@deloitte.com</a></p>

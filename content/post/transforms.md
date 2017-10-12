@@ -1,5 +1,5 @@
 ---
-title: CSS3 Transforms
+title: Transforms
 prev: /post/multi-column
 next: /post/transitions
 weight: 7
@@ -63,7 +63,7 @@ weight: 7
 <p><strong>Skew</strong><p>
 <p>The skewX and skewY transform functions tilt an element one way or the other. </p>
 <h4>Working Section:</h4>
-<a href="https://jsbin.com/johariyina/edit?html,output"></a>
+<p><a href="https://jsbin.com/johariyina/edit?html,output">https://jsbin.com/johariyina/edit?html,output</a></p>
 
 <p><strong>Rotate</strong><p>
 <p>This rotates an element clockwise from its original position, whilst a negative value would rotate it in the opposite direction.</p>
@@ -85,5 +85,4 @@ https://css-tricks.com/almanac/properties/t/transform/
 
 <h4>Point of Contact:</h4>
 
-<p>Meghna Khound</p>
-<a href="mailto:mkhound@deloitte.com">mkhound@deloitte.com</a>
+<p>Meghna Khound <a href="mailto:mkhound@deloitte.com">mkhound@deloitte.com</a></p>

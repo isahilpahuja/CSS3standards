@@ -8,3 +8,6 @@
     border-radius:10px;
     font-size:14px;
 }
+#header-wrapper,#footer{
+  display: none;
+}

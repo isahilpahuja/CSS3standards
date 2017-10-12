@@ -1,5 +1,5 @@
 ---
-title: CSS3 Transitions
+title: Transitions
 prev: /post/transforms
 next: /post/userinterface
 weight: 8
@@ -91,5 +91,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_trans
 
 <h4>Point of Contact:</h4>
 
-<p>Sahil Kumar</p>
-<a href="mailto:sahikumar@deloitte.com">sahikumar@deloitte.com</a>
+<p>Sahil Kumar <a href="mailto:sahikumar@deloitte.com">sahikumar@deloitte.com</a></p>

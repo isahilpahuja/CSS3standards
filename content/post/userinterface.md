@@ -1,5 +1,5 @@
 ---
-title: CSS3 User interface
+title: User interface
 prev: /post/transitions
 next: /post/border
 weight: 9
@@ -8,8 +8,86 @@ weight: 9
 <p>CSS3 brings some great new properties relating to resizing elements, cursors, outlining, box layout and more. Here we will be focusing on three of the most significant user interface enhancements:</p>
 <ul>
 <li>resize</li>
+<table>
+<thead>
+  <tr>
+    <th>Property</th>
+    <th>Chrome</th>
+    <th>Safari</th>
+    <th>Firefox</th>
+    <th>Opera</th>
+    <th>Internet Explorer</th>
+    <th>Android</th>
+    <th>iOS</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>resize</td>
+    <td>4.0</td>
+    <td>4.0</td>
+    <td>5.0<br/>4.0 -moz-</td>
+    <td>15.0</td>
+    <td>Not supported</td>
+    <td>unknown</td>
+    <td>unknown</td>
+  </tr>
+</tbody>
+</table>
 <li>box-sizing</li>
+<table>
+<thead>
+  <tr>
+    <th>Property</th>
+    <th>Chrome</th>
+    <th>Safari</th>
+    <th>Firefox</th>
+    <th>Opera</th>
+    <th>Internet Explorer</th>
+    <th>Android</th>
+    <th>iOS</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>box-sizing</td>
+  <td>10.0<br/>4.0 -webkit-</td>
+  <td>5.1<br/>3.1 -webkit-</td>
+  <td>29.0<br/>2.0 -moz-</td>
+  <td>9.5</td>
+  <td>8.0</td>
+  <td>2.1 -webkit-</td>
+  <td>3.2</td>
+  </tr>
+</tbody>
+</table>
 <li>outline-offset</li>
+<table>
+<thead>
+  <tr>
+    <th>Property</th>
+    <th>Chrome</th>
+    <th>Safari</th>
+    <th>Firefox</th>
+    <th>Opera</th>
+    <th>Internet Explorer</th>
+    <th>Android</th>
+    <th>iOS</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>outline-offset</td>
+    <td>4.0</td>
+    <td>4.0</td>
+    <td>5.0<br/>4.0 -moz-</td>
+    <td>9.5</td>
+    <td>Not supported</td>
+    <td>unknown</td>
+    <td>unknown</td>
+  </tr>
+</tbody>
+</table>
 </ul>
 <p>The following table shows the default values of the user interface properties:</p>
 
@@ -107,14 +185,15 @@ weight: 9
 <a href= "https://jsbin.com/cesijic/3">Effect of the resize property on generated content</a>
 
 <h3>Box-sizing:</h3>
-<p>The box sizing aspect allows you to define certain elements to fit an area in a certain way. For example, if we want two bordered boxes side by side, it can be achieved by setting box-sizing to ‘border-box’. This forces the browser to render the box with the specified width and height, and place the border and padding inside the box.</p>
-
-<h4>Need for this standard:</h4>
+<p>The CSS3 box-sizing property allows us to include the padding and border in an element's total width and height. The box sizing aspect allows you to define certain elements to fit an area in a certain way. For example, if we want two bordered boxes side by side, it can be achieved by setting box-sizing to ‘border-box’. This forces the browser to render the box with the specified width and height, and place the border and padding inside the box.</p>
 <p>By default, the width and height of an element is calculated like this:</p>
 <p>width + padding + border = actual width of an element</p>
 <p>height + padding + border = actual height of an element</p>
 <p>This means that when we set width/height of an element it will appear bigger that the actual size we defined. The CSS3 box-sizing property allows us to include the padding and border in an element's total width and height.</p>
 <p>We can include the padding and border in the width/height defined without increasing the required size of the element using <i>‘box-sizing: border-box’</i>.</p>
+
+
+
 
 <h4>Negative Impact:</h4>
 <p>It is advised to use this property and define its value, as most of the libraries and browser may or may not define its value. In both the cases it will take the default value and again the designer might not get the desired output.</p>
@@ -143,7 +222,7 @@ weight: 9
 <h4>Working Section:</h4>
 <a href="https://jsbin.com/kisunay/1">Outline-offset</a>
 
-<h4>Reference:</h4>
+<h4>References:</h4>
 
 https://www.w3.org/TR/css-ui-3/#propdef-box-sizing
 
@@ -157,5 +236,4 @@ https://drafts.csswg.org/css-ui-3/#outline-offset
 
 <h4>Point of Contact:</h4>
 
-<p>Minu Kumari</p>
-<a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a>
+<p>Minu Kumari <a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a></p>

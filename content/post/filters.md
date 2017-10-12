@@ -1,5 +1,5 @@
 ---
-title: CSS3 Filters
+title: Filters
 prev: /post/drop-shadow
 next: /post/flexiblebox
 weight: 4
@@ -105,5 +105,4 @@ You may combine any number of functions to manipulate the rendering, but order s
 
 <h4>Point of Contact:</h4>
 
-<p>Sahil Kumar</p>
-<a href="mailto:sahikumar@deloitte.com">sahikumar@deloitte.com</a>
+<p>Sahil Kumar <a href="mailto:sahikumar@deloitte.com">sahikumar@deloitte.com</a></p>

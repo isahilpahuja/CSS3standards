@@ -1,5 +1,5 @@
 ---
-title: CSS3 Flexible Layout
+title: Flexbox
 prev: /post/filters
 next: /post/gradients
 weight: 5
@@ -147,7 +147,7 @@ We no longer need to rely on solutions like, stretching content with position: a
 <h3>Negative Impact:</h3>
 <p>Don't use flexbox for overall page layout.</p>
 <p>If one uses the shorthand properties (flex shorthand property and the flex-flow shorthand property) and fails to declare any property in the sequence, those properties will fall back to their default values as defined in the above table. Using a flex value of something like 1 0 0px can still be a problem because many CSS minifiers will convert 0px to 0. To avoid this, make sure to use 0% instead of 0px since most minifiers won't touch percentage values for other reasons</p>
-
+<p>Flexbox is not supported by older versions of the browsers.</p>
 <p>Of all the benefits and ease, there are still some bugs in using Flexbox. You can check the list and description of known bugs at:</p>
 <ul>
 <li><a href="https://github.com/philipwalton/flexbugs">Flexbugs</a></li>
@@ -168,7 +168,7 @@ We no longer need to rely on solutions like, stretching content with position: a
 <a href="https://jsbin.com/yugubu/1">FlexBox Use</a>
 
 
-<h4>Reference:</h4>
+<h4>References:</h4>
 
 https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/
 
@@ -182,5 +182,4 @@ https://caniuse.com/#search=Flexbox
 
 <h4>Point of Contact:</h4>
 
-<p>Minu Kumari</p>
-<a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a>
+<p>Minu Kumari <a href="mailto:minkumari@deloitte.com">minkumari@deloitte.com</a></p>

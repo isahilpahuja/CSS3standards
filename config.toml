@@ -1,4 +1,4 @@
-baseurl = "https://css3standards.herokuapp.com/"
+baseurl = "https://css3standards.herokuapp.com/post"
 languageCode = "en-us"
 title = "Hugo Learn Theme"
 theme = "hugo-theme-learn"

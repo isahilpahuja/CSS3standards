@@ -1,6 +1,6 @@
-baseurl = "https://css3standards.herokuapp.com/post"
+baseurl = "https://css3standards.herokuapp.com/post/topic"
 languageCode = "en-us"
-title = "Hugo Learn Theme"
+title = "CSS3 Standards"
 theme = "hugo-theme-learn"
 MetaDataFormat = "yaml"
 

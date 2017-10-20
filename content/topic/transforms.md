@@ -1,7 +1,5 @@
 ---
-title: Transforms
-prev: /post/multi-column
-next: /post/transitions
+title: 'Transforms'
 weight: 8
 ---
 

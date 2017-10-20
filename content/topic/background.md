@@ -1,6 +1,5 @@
 ---
-title: Background
-prev: /post/border
+title: 'Background'
 weight: 12
 ---
 

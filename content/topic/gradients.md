@@ -1,7 +1,5 @@
 ---
-title: Gradients
-prev: /post/flexiblebox
-next: /post/multi-column
+title: 'Gradients'
 weight: 6
 ---
 <p>Gradients displays the combination of two or more colors.

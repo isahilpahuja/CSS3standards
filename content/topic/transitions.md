@@ -1,7 +1,5 @@
 ---
-title: Transitions
-prev: /post/transforms
-next: /post/userinterface
+title: 'Transitions'
 weight: 9
 ---
 

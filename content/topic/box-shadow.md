@@ -1,7 +1,5 @@
 ---
-title: Box Shadow
-prev: /post/css3text
-next: /post/filters
+title: 'Box Shadow'
 weight: 3
 ---
 

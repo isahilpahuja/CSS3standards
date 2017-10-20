@@ -1,7 +1,5 @@
 ---
-title: Flexbox
-prev: /post/filters
-next: /post/gradients
+title: 'Flexbox'
 weight: 5
 ---
 <p>The Flexbox Layout officially called CSS Flexible Box Layout Module is new layout module in CSS3 made to improve the items align, directions and order in the container even when they are with dynamic or even unknown size. Using flexible widths and heights, elements can be aligned to fill a space or distribute space between elements.</p>

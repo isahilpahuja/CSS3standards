@@ -1,7 +1,5 @@
 ---
-title: User interface
-prev: /post/transitions
-next: /post/border
+title: 'User interface'
 weight: 10
 ---
 

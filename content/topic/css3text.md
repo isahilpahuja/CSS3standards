@@ -1,7 +1,5 @@
 ---
-title: Text
-prev: /post/animation
-next: /post/drop-shadow
+title: "Text"
 weight: 2
 ---
 
@@ -153,14 +151,13 @@ Text overflow can only happen on block or inline-block level elements.</p>
 
 <h4>For example: </h4>
 
-<div class="prop">
-    <p>This div uses "text-overflow:clip":</p>
-    <div style = "white-space: nowrap; width: 12em; overflow: hidden;text-overflow: clip; border: 1px solid #000000;">
-    This is some long text that will not fit in the box</div>
+    <div class="prop">
+        <p>This div uses "text-overflow:clip":</p>
+        <div style = "white-space: nowrap; width: 12em; overflow: hidden;text-overflow: clip; border: 1px solid #000000;">This is some long text that will not fit in the box</div>
 
-    <p>This div uses "text-overflow:ellipsis":</p>
-    <div style = "white-space: nowrap; width: 12em; overflow: hidden;text-overflow: ellipsis; border: 1px solid #000000;">This is some long text that will not fit in the box</div>
-  </div>
+        <p>This div uses "text-overflow:ellipsis":</p>
+        <div style = "white-space: nowrap; width: 12em; overflow: hidden;text-overflow: ellipsis; border: 1px solid #000000;">This is some long text that will not fit in the box</div>
+    </div>
 
 <h2><u>word-wrap:</u></h2>
 <p>This property will either expand the word outside if it is too long to fit within an area (normal) or forcefully wraps the text even if it means splitting it in the middle of a word (break-word).</p>

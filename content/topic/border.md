@@ -1,7 +1,5 @@
 ---
-title: Border
-prev: /post/userinterface
-next: /post/background
+title: 'Border'
 weight: 11
 ---
 

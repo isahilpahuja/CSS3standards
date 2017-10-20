@@ -1,7 +1,5 @@
 ---
-title: Multi Column
-prev: /post/gradients
-next: /post/transforms
+title: 'Multi Column'
 weight: 7
 ---
 

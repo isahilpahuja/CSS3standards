@@ -1,7 +1,5 @@
 ---
-title: Animations
-prev: /post
-next: /post/css3text
+title: 'Animations'
 weight: 1
 ---
 

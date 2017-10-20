@@ -5,6 +5,4 @@ theme = "hugo-theme-learn"
 MetaDataFormat = "yaml"
 
 [params]
-  editURL = ""
-  description = "Documentation for Hugo Learn Theme"
-  author = "Mathieu Cornic"
+  author = "Sahil Pahuja | Meghana Raju"

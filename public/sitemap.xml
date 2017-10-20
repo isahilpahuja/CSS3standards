@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/animation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/css3text/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/box-shadow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/filters/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/flexiblebox/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/gradients/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/multi-column/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/transforms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/transitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/userinterface/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/border/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/background/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://css3standards.herokuapp.com/post/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -2,7 +2,7 @@
 title: User interface
 prev: /post/transitions
 next: /post/border
-weight: 9
+weight: 10
 ---
 
 <p>CSS3 brings some great new properties relating to resizing elements, cursors, outlining, box layout and more. Here we will be focusing on three of the most significant user interface enhancements:</p>
